@@ -44,6 +44,7 @@ const jsonTemp = [
   }];
 
     return raw.map((v) => [v.act, v.prompt]);
+
   } catch (error) {
     console.error("[Fetch] failed to fetch cn prompts", error);
     return [];
