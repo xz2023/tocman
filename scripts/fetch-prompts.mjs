@@ -43,7 +43,7 @@ const jsonTemp = [
     "prompt": "Step 1. Find：找到系统瓶颈。请务必遵从以色列物理学家高德拉特博士的TOC制约理论中对瓶颈及制约的定义，一般来说瓶颈或制约分为物理瓶颈和政策制约，物理瓶颈包括昂贵的设备、稀缺的资源，比如说货架的空间，餐厅的座位数，决定出餐速度的设备，酒店的房间数，不易招募或培养的人才，关键工艺程序的设备；政策制约包括公司各部门的制度、流程等人为因素限制了系统的产出；\n"
   }];
 
-    return raw.map((v) => [v.act, v.prompt]);
+    return jsonTemp.map((v) => [v.act, v.prompt]);
 
   } catch (error) {
     console.error("[Fetch] failed to fetch cn prompts", error);
