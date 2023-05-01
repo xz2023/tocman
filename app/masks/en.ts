@@ -38,7 +38,7 @@ export const CN_MASKS: BuiltinMask[] = [
       historyMessageCount: 4,
       compressMessageLengthThreshold: 1000,
     },
-    lang: "en",
+    lang: "cn",
     builtin: true,
   },
    {
