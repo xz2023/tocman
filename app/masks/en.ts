@@ -19,7 +19,7 @@ export const EN_MASKS: BuiltinMask[] = [
       {
         role: "user",
         content:
-          "你还知道哪些案例吗？",
+          "你还知道哪些案例吗？请继续向我说明",
         date: "",
       },
       {
