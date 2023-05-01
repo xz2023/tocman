@@ -3,7 +3,7 @@ import { BuiltinMask } from "./typing";
 export const EN_MASKS: BuiltinMask[] = [
   {
     avatar: "1f916",
-    name: "Prompt Improvement",
+    name: "供需连思维模型",
     context: [
       {
         role: "user",
