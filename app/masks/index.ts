@@ -1,6 +1,6 @@
 import { Mask } from "../store/mask";
 import { CN_MASKS } from "./cn";
-import { CN_MASKS } from "./cn";
+// import { CN_MASKS } from "./cn";
 
 import { type BuiltinMask } from "./typing";
 export { type BuiltinMask } from "./typing";
