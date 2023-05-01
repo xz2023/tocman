@@ -27,6 +27,10 @@ async function fetchCN() {
 
   const jsonTemp = [
     {
+      "act": "MECE原则",
+      "prompt": "请帮我用MECE原则把你输出的内容做梳理。（MECE原则（Mutually Exclusive, Collectively Exhaustive）是一种思考问题和组织信息的逻辑框架，常用于管理咨询、商业分析和战略规划等领域。MECE原则包括两个核心要素：互斥性（Mutually Exclusive）和穷尽性（Collectively Exhaustive）。应用MECE原则能够帮助我们更系统地解决问题和进行分析。1、互斥性（Mutually Exclusive）：指将问题或信息划分成各个独立的子集，确保这些子集之间没有交集或重叠。互斥性要求我们在对问题或信息进行分类时，避免出现重复或模糊的类别。这有助于减少混淆、遗漏或双重计算的风险，使得我们的分析更加清晰和有效。2、穷尽性（Collectively Exhaustive）：指将问题或信息划分成子集的过程，要确保所有相关的内容都被覆盖到。穷尽性要求我们在划分子集时，确保涵盖了所有可能的情况，不遗漏任何重要信息。这有助于我们全面地理解问题和信息，避免因为忽略某些方面而导致分析不完整或偏颇。）”\n"
+    },
+    {
       "act": "营销:需求三角之缺乏感",
       "prompt": "请先帮我分析XXX（自己按实际状况填写）的缺乏感”。\n"
     },
