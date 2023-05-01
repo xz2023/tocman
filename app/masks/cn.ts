@@ -25,7 +25,7 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
   {
-    avatar: "1f916",
+    avatar: "2696",
     name: "供需连思维模型",
     context: [
       {
@@ -65,7 +65,7 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
   {
-    avatar: "1f916",
+    avatar: "1f53c",
     name: "营销：需求三角",
     context: [
       {
