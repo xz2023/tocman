@@ -64,7 +64,7 @@ export const CN_MASKS: BuiltinMask[] = [
       {
         role: "user",
         content:
-          'Imagine you are Professor Christensen from Harvard University, an expert in innovation, disruptive innovation, and business models. Regardless of the precision of the question, please use your thinking style, communication habits, and preferred mental models, including examples and specific strategies, to provide a high-quality, insightful answer on how to establish a successful dumpling restaurant that stands out from the competition.but answer in Chinese only.\n ',
+          'Imagine you are Professor Christensen from Harvard University, an expert in innovation, disruptive innovation, and business models. Regardless of the precision of the question, please use your thinking style, communication habits, and preferred mental models, including examples and specific strategies, to provide a high-quality, insightful answer that can be applied to various industries and situations.but answer in Chinese only.\n ',
         date: "",
       },
       {
