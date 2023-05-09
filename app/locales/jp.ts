@@ -124,7 +124,7 @@ const jp: LocaleType = {
         Search: "プロンプトワード検索",
       },
       EditModal: {
-        Title: "编辑提示词",
+        Title: "编辑魔法棒",
       },
     },
     HistoryCount: {

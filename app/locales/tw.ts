@@ -107,20 +107,20 @@ const tw: LocaleType = {
     },
     Prompt: {
       Disable: {
-        Title: "停用提示詞自動補齊",
+        Title: "停用魔法棒自動補齊",
         SubTitle: "在輸入框開頭輸入 / 即可觸發自動補齊",
       },
-      List: "自定義提示詞列表",
+      List: "自定義魔法棒列表",
       ListCount: (builtin: number, custom: number) =>
         `內建 ${builtin} 條，用戶定義 ${custom} 條`,
       Edit: "編輯",
       Modal: {
-        Title: "提示詞列表",
+        Title: "魔法棒列表",
         Add: "新增一條",
-        Search: "搜尋提示詞",
+        Search: "搜尋魔法棒",
       },
       EditModal: {
-        Title: "编辑提示词",
+        Title: "编辑魔法棒",
       },
     },
     HistoryCount: {
