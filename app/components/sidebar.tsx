@@ -96,9 +96,9 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>测试</div>
+        <div className={styles["sidebar-title"]}>带上角色帽挥舞魔法棒</div>
         <div className={styles["sidebar-sub-title"]}>
-          注重逻辑，避免崩溃.
+          召集你的智囊团.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
