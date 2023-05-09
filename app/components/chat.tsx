@@ -702,7 +702,7 @@ export function Chat() {
             !(message.preview || message.content.length === 0);
           const showTyping = message.preview || message.streaming;
 
-          if(i>14){
+          if(i>13){
           return (
             <div
               key={i}
