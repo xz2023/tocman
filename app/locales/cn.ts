@@ -117,7 +117,7 @@ const cn = {
       Edit: "编辑",
       Modal: {
         Title: "魔法棒列表",
-        Add: "新建",
+        // Add: "新建",
         Search: "搜索魔法棒",
       },
       EditModal: {
