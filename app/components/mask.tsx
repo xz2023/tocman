@@ -344,11 +344,12 @@ export function MaskPage() {
                     }}
                   />
                   {m.builtin ? (
-                    <IconButton
-                      icon={<EyeIcon />}
-                      text={Locale.Mask.Item.View}
-                      onClick={() => setEditingMaskId(m.id)}
-                    />
+                    // <IconButton
+                    //   icon={<EyeIcon />}
+                    //   text={Locale.Mask.Item.View}
+                    //   onClick={() => setEditingMaskId(m.id)}
+                    // />
+                    null
                   ) : (
                     <IconButton
                       icon={<EditIcon />}
