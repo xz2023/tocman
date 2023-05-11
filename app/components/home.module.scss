@@ -528,7 +528,7 @@
   border: var(--border-in-light);
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.03);
   background-color:#f7f9fa;   //var(--white); 打字的框里面的背景颜色
-  color:#dd7e11;   //var(--black);测试
+  color:#0d0d0c;   //var(--black);打字的框中字体的颜色
   font-family: inherit;
   padding: 10px 90px 10px 14px;
   resize: none;
@@ -536,12 +536,12 @@
 }
 
 .chat-input:focus {
-  border: 1px solid var(--primary);
+  border: 1px solid #dd11a0;  //var(--primary);
 }
 
 .chat-input-send {
-  background-color: var(--primary);
-  color: white;
+  background-color:#e7d537;   //var(--primary);
+  color:#11dd5f; //white;
 
   position: absolute;
   right: 30px;
