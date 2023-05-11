@@ -345,7 +345,6 @@ export function MaskPage() {
                   />
                   {m.builtin ? (
                     <IconButton
-                      style={{display: "none"}}  // 新增这行代码
                       icon={<EyeIcon />}
                       text={Locale.Mask.Item.View}
                       onClick={() => setEditingMaskId(m.id)}
