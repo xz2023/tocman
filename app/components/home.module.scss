@@ -42,7 +42,7 @@
   width: var(--sidebar-width);
   box-sizing: border-box;
   padding: 20px;
-  background-color:#211f23;  //这里做了改动
+  background-color:#4b2273;  //这里做了改动
   display: flex;
   flex-direction: column;
   box-shadow: inset -2px 0px 2px 0px rgb(0, 0, 0, 0.05);
@@ -151,7 +151,7 @@
   overflow-x: hidden;
 }
 
-.chat-item {
+.chat-item {  //对话框气泡的样式和颜色
   padding: 10px 14px;
   background-color: var(--white);
   border-radius: 10px;
@@ -201,7 +201,7 @@
   opacity: 1;
 }
 
-.chat-item-info {
+.chat-item-info {  //这里是关于AI角色对话框信息条里的颜色
   display: flex;
   justify-content: space-between;
   color: rgb(166, 166, 166);
