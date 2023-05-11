@@ -434,7 +434,7 @@
 }
 
 .chat-message-user > .chat-message-container > .chat-message-item {
-  background-color:#dd111b;   //var(--second);
+  background-color:#343541;   //var(--second);用户的气泡颜色
 }
 
 .chat-message-actions {
@@ -447,7 +447,7 @@
 }
 
 .chat-message-action-date {
-  color: #13b594;  //测试
+  color: #aaa;  //AI角色下面对话的时间
 }
 
 .chat-input-panel {
@@ -477,14 +477,14 @@
   display: flex;
   flex-direction: column-reverse;
 
-  background-color: var(--white);
+  background-color:#202123;   //var(--white);测试
   border: var(--border-in-light);
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--shadow);
 
   .prompt-hint {
-    color: var(--black);
+    color:#e5e8ee;   //var(--black);测试
     padding: 6px 10px;
     animation: slide-in ease 0.3s;
     cursor: pointer;
