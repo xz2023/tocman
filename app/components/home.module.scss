@@ -258,7 +258,7 @@
   .chat-item-narrow {
     line-height: 0;
     font-weight: lighter;
-    color:#dd11a0;   //var(--black);
+    color:#dd11a0;   //var(--black);没看到
     transform: translateX(0);
     transition: all ease 0.3s;
     padding: 4px;
@@ -278,7 +278,7 @@
       font-size: 24px;
       font-weight: bolder;
       text-align: center;
-      color:#11dd5f;   //var(--primary);
+      color:#11dd5f;   //var(--primary);也没看到
       opacity: 0.6;
     }
   }
@@ -390,12 +390,12 @@
   margin-top: 5px;
 }
 
-.chat-message-item {
+.chat-message-item {  //AI角色回复的对话框的气泡颜色
   box-sizing: border-box;
   max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
-  background-color:#dd8f11;     // rgba(0, 0, 0, 0.05);
+  background-color:#444655;     // rgba(0, 0, 0, 0.05);
   padding: 10px;
   font-size: 14px;
   user-select: text;
@@ -417,7 +417,7 @@
   display: flex;
   flex-direction: row-reverse;
 
-  .chat-message-top-action {
+  .chat-message-top-action { //这个位置是AI回复的内容复制、重试、删除的按钮字的颜色（待确认）
     opacity: 0.5;
     color:#ddda11;   //var(--black);
     white-space: nowrap;
