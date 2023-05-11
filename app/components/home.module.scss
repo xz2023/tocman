@@ -477,14 +477,14 @@
   display: flex;
   flex-direction: column-reverse;
 
-  background-color:#087f1c;   //var(--white);测试
+  background-color:var(--white);  //魔法棒背后的背景色
   border: var(--border-in-light);
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--shadow);
 
   .prompt-hint {
-    color:#d81792;   //var(--black);测试
+    color:var(--black);  //魔法棒背后的字体颜色
     padding: 6px 10px;
     animation: slide-in ease 0.3s;
     cursor: pointer;
