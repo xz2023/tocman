@@ -419,7 +419,7 @@
 
   .chat-message-top-action { //这个位置是AI回复的内容复制、重试、删除的按钮字的颜色（待确认）
     opacity: 0.5;
-    color:#ddda11;   //var(--black);
+    color:var(--black);
     white-space: nowrap;
     cursor: pointer;
 
