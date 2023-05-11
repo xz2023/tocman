@@ -201,10 +201,10 @@
   opacity: 1;
 }
 
-.chat-item-info {  //这里是关于AI角色对话框信息条里的颜色？测试不对
+.chat-item-info {  //这里是侧边栏角色框信息条里的字体颜色
   display: flex;
   justify-content: space-between;
-  color:#1c2db2;  // rgb(166, 166, 166);
+  color:rgb(166, 166, 166);
   font-size: 12px;
   margin-top: 8px;
   animation: slide-in ease 0.3s;
@@ -258,7 +258,7 @@
   .chat-item-narrow {
     line-height: 0;
     font-weight: lighter;
-    color: var(--black);
+    color:#dd11a0;   //var(--black);
     transform: translateX(0);
     transition: all ease 0.3s;
     padding: 4px;
