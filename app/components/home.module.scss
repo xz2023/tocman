@@ -3,7 +3,7 @@
   border: var(--border-in-light);
   border-radius: 20px;
   box-shadow: var(--shadow);
-  color:#d3dd11e2; //var(--black);
+  color:#d3dd11e2; //var(--black)；测试
   background-color: var(--white);
   min-width: 600px;
   min-height: 480px;
@@ -42,7 +42,7 @@
   width: var(--sidebar-width);
   box-sizing: border-box;
   padding: 20px;
-  background-color:#202123;  //这里做了改动
+  background-color:#edea47;  //侧边栏的整个背景色
   display: flex;
   flex-direction: column;
   box-shadow: inset -2px 0px 2px 0px rgb(0, 0, 0, 0.05);
@@ -390,7 +390,7 @@
   margin-top: 5px;
 }
 
-.chat-message-item {  //AI角色回复的对话框的气泡颜色
+.chat-message-item {  //AI角色回复的对话框的气泡背景颜色
   box-sizing: border-box;
   max-width: 100%;
   margin-top: 10px;
@@ -417,9 +417,9 @@
   display: flex;
   flex-direction: row-reverse;
 
-  .chat-message-top-action { //这个位置是AI回复的内容复制、重试、删除的按钮字的颜色
+  .chat-message-top-action { 
     opacity: 0.5;
-    color:var(--black);
+    color:var(--black);  //这个位置是AI回复的内容复制、重试、删除的按钮字的颜色
     white-space: nowrap;
     cursor: pointer;
 
@@ -447,7 +447,7 @@
 }
 
 .chat-message-action-date {
-  color: #aaa;  //AI角色下面对话的时间
+  color: #aaa;  //AI角色下面对话的时间颜色
 }
 
 .chat-input-panel {
@@ -536,11 +536,11 @@
 }
 
 .chat-input:focus {
-  border: 1px solid #dd11a0;  //var(--primary);
+  border: 1px solid #ddd311;  //var(--primary);打字的框点击后出的边框颜色
 }
 
 .chat-input-send {
-  background-color:#e7d537;   //var(--primary);
+  background-color:#e737cd;   //var(--primary);
   color:#11dd5f; //white;
 
   position: absolute;
