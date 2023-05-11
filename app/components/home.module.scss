@@ -511,7 +511,7 @@
 
     &-selected,
     &:hover {
-      border-color:#11dd5f;    //var(--primary);测试
+      border-color:#e7d537;    //var(--primary);魔法棒里选什么内容就会出现边框，边框的颜色
     }
   }
 }
@@ -527,7 +527,7 @@
   border-radius: 10px;
   border: var(--border-in-light);
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.03);
-  background-color:#dd11a0;   //var(--white);测试
+  background-color:#f7f9fa;   //var(--white); 打字的框里面的背景颜色
   color:#dd7e11;   //var(--black);测试
   font-family: inherit;
   padding: 10px 90px 10px 14px;
