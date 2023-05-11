@@ -511,7 +511,7 @@
 
     &-selected,
     &:hover {
-      border-color: var(--primary);
+      border-color:#11dd5f;    //var(--primary);测试
     }
   }
 }
@@ -527,8 +527,8 @@
   border-radius: 10px;
   border: var(--border-in-light);
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.03);
-  background-color: var(--white);
-  color: var(--black);
+  background-color:#dd11a0;   //var(--white);测试
+  color:#dd7e11;   //var(--black);测试
   font-family: inherit;
   padding: 10px 90px 10px 14px;
   resize: none;
