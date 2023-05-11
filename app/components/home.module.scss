@@ -417,7 +417,7 @@
   display: flex;
   flex-direction: row-reverse;
 
-  .chat-message-top-action { //这个位置是AI回复的内容复制、重试、删除的按钮字的颜色（待确认）
+  .chat-message-top-action { //这个位置是AI回复的内容复制、重试、删除的按钮字的颜色
     opacity: 0.5;
     color:var(--black);
     white-space: nowrap;
@@ -434,7 +434,7 @@
 }
 
 .chat-message-user > .chat-message-container > .chat-message-item {
-  background-color: var(--second);
+  background-color:#dd111b;   //var(--second);
 }
 
 .chat-message-actions {
@@ -447,7 +447,7 @@
 }
 
 .chat-message-action-date {
-  color: #aaa;
+  color: #13b594;  //测试
 }
 
 .chat-input-panel {
