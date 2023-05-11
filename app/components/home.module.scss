@@ -278,7 +278,7 @@
       font-size: 24px;
       font-weight: bolder;
       text-align: center;
-      color: var(--primary);
+      color:#11dd5f;   //var(--primary);
       opacity: 0.6;
     }
   }
@@ -395,7 +395,7 @@
   max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color:#dd8f11;     // rgba(0, 0, 0, 0.05);
   padding: 10px;
   font-size: 14px;
   user-select: text;
@@ -419,7 +419,7 @@
 
   .chat-message-top-action {
     opacity: 0.5;
-    color: var(--black);
+    color:#ddda11;   //var(--black);
     white-space: nowrap;
     cursor: pointer;
 
