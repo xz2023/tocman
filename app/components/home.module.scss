@@ -151,7 +151,7 @@
   overflow-x: hidden;
 }
 
-.chat-item {  //侧边栏气泡的样式和颜色
+.chat-item {  //侧边栏气泡对话的样式和颜色
   padding: 10px 14px;
   background-color:var(--white);
   border-radius: 10px;
@@ -204,7 +204,7 @@
 .chat-item-info {  //这里是关于AI角色对话框信息条里的颜色
   display: flex;
   justify-content: space-between;
-  color: rgb(166, 166, 166);
+  color:#444655;  // rgb(166, 166, 166);
   font-size: 12px;
   margin-top: 8px;
   animation: slide-in ease 0.3s;
