@@ -1,12 +1,19 @@
-:root {
-  --primary: #3a86ff;
-  --secondary: #8be9fd;
-  --tertiary: #50fa7b;
-  --quaternary: #f1fa8c;
-  --quinary: #ffb86c;
-  --senary: #ff79c6;
-  --septenary: #bd93f9;
-  --octonary: #6272a4;
+@mixin container {
+  background-color: var(--quinary);
+  border: var(--border-in-light);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  color: var(--octonary);
+  min-width: 600px;
+  min-height: 480px;
+  max-width: 1200px;
+
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  width: var(--window-width);
+  height: var(--window-height);
 }
 // @mixin container {
 //   background-color:var(--white);  //测试未发现在何处出现 还原
@@ -30,23 +37,6 @@
 // .container {
 //   @include container();
 // }
-@mixin container {
-  background-color: var(--quinary);
-  border: var(--border-in-light);
-  border-radius: 20px;
-  box-shadow: var(--shadow);
-  color: var(--octonary);
-  min-width: 600px;
-  min-height: 480px;
-  max-width: 1200px;
-
-  display: flex;
-  overflow: hidden;
-  box-sizing: border-box;
-
-  width: var(--window-width);
-  height: var(--window-height);
-}
 
 .container {
   @include container();
