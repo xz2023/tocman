@@ -42,7 +42,7 @@
   width: var(--sidebar-width);
   box-sizing: border-box;
   padding: 20px;
-  background-color:#db8282;  //侧边栏的整个背景色
+  background-color:#FFC1C1;  //侧边栏的整个背景色
   display: flex;
   flex-direction: column;
   box-shadow: inset -2px 0px 2px 0px rgb(0, 0, 0, 0.05);
@@ -153,7 +153,7 @@
 
 .chat-item {  
   padding: 10px 14px;
-  background-color:#535558;   //var(--white);侧边栏气泡对话框里的背景颜色
+  background-color:#FFD9D9;   //var(--white);侧边栏气泡对话框里的背景颜色
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
@@ -165,11 +165,11 @@
 }
 
 .chat-item:hover {
-  background-color:#202127; //var(--hover-color);侧边栏气泡对话框里鼠标要选择的时候的背景颜色
+  background-color:#FF6347; //var(--hover-color);侧边栏气泡对话框里鼠标要选择的时候的背景颜色
 }
 
 .chat-item-selected {
-  border-color:#ddd611; //var(--primary);侧边栏气泡对话框里鼠标要选择的时候的边框颜色
+  border-color:#FF8C8C; //var(--primary);侧边栏气泡对话框里鼠标要选择的时候的边框颜色
 }
 
 .chat-item-title {
@@ -395,7 +395,7 @@
   max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
-  background-color:#676a84;     // rgba(0, 0, 0, 0.05);
+  background-color:#FFA07A;     // rgba(0, 0, 0, 0.05);
   padding: 10px;
   font-size: 14px;
   user-select: text;
@@ -434,7 +434,7 @@
 }
 
 .chat-message-user > .chat-message-container > .chat-message-item {
-  background-color:#babdde;   //var(--second);用户发送的内容的气泡背景颜色
+  background-color:#FFD700;   //var(--second);用户发送的内容的气泡背景颜色
 }
 
 .chat-message-actions {
@@ -511,7 +511,7 @@
 
     &-selected,
     &:hover {
-      border-color:#e7d537;    //var(--primary);魔法棒里选什么内容就会出现边框，边框的颜色
+      border-color:#FF8C8C;    //var(--primary);魔法棒里选什么内容就会出现边框，边框的颜色
     }
   }
 }
@@ -536,7 +536,7 @@
 }
 
 .chat-input:focus {
-  border: 1px solid #ddd311;  //var(--primary);打字的框点击后出的边框颜色
+  border: 1px solid #FF8C8C;  //var(--primary);打字的框点击后出的边框颜色
 }
 
 .chat-input-send {
