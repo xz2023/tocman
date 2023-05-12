@@ -1,10 +1,10 @@
 @mixin container {
-  background-color:#11ddda; //var(--white);  测试未发现在何处出现
+  background-color:var(--white);  //测试未发现在何处出现
   border: var(--border-in-light);
   border-radius: 20px;
   box-shadow: var(--shadow);
   color:#000000e2; //var(--black)； 左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的AI角色字的颜色
-  background-color:#ffffff; //var(--white); 除了对话气泡和输入栏外的对话框的背景色
+  background-color:var(--white); //除了对话气泡和输入栏外的对话框的背景色
   min-width: 600px;
   min-height: 480px;
   max-width: 1200px;
@@ -71,7 +71,7 @@
   right: 0;
   height: 100%;
   width: $width;
-  background-color:#dd11a0; //var(--black); 未发现改变，GPT-4提示可能是侧边栏的拖动手柄的位置
+  background-color:var(--black); //未发现改变，GPT-4提示可能是侧边栏的拖动手柄的位置
   cursor: ew-resize;
   opacity: 0;
   transition: all ease 0.3s;
@@ -258,7 +258,7 @@
   .chat-item-narrow {
     line-height: 0;
     font-weight: lighter;
-    color:#dd11a0;   //var(--black);没看到改变
+    color: var(--black);   //没看到改变已经还原
     transform: translateX(0);
     transition: all ease 0.3s;
     padding: 4px;
@@ -278,7 +278,7 @@
       font-size: 24px;
       font-weight: bolder;
       text-align: center;
-      color:#11dd5f;   //var(--primary);也没看到
+      color: var(--primary);   //没看到改变已经还原
       opacity: 0.6;
     }
   }
@@ -540,8 +540,8 @@
 }
 
 .chat-input-send {
-  background-color:#37e749;   //var(--primary);测试未知146
-  color:#dd3611; //white;测试未知146
+  background-color: var(--primary);   //没看到改变已经还原
+  color:white;   //没看到改变已经还原
 
   position: absolute;
   right: 30px;
