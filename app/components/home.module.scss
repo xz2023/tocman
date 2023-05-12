@@ -1,10 +1,10 @@
 @mixin container {
-  background-color:#11dd5f; //var(--white);
+  background-color:#11dd5f; //var(--white);  测试
   border: var(--border-in-light);
   border-radius: 20px;
   box-shadow: var(--shadow);
   color:#ffffffe2; //var(--black)； 左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的AI角色字的颜色
-  background-color:#dd11a0; //var(--white);
+  background-color:#dd11a0; //var(--white); 测试
   min-width: 600px;
   min-height: 480px;
   max-width: 1200px;
@@ -157,7 +157,7 @@
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
-  transition: background-color 0.3s ease;
+  transition:noen; //background-color 0.3s ease; 取消过渡动画
   cursor: pointer;
   user-select: none;
   border: 2px solid transparent;
