@@ -3,8 +3,8 @@
   border: var(--border-in-light);
   border-radius: 20px;
   box-shadow: var(--shadow);
-  color:#cfa116e2; //var(--black)； 左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的AI角色字的颜色
-  background-color:#3c6cbf; //var(--white); 除了对话气泡和输入栏外的对话框的背景色
+  color:#000000e2; //var(--black)； 左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的AI角色字的颜色
+  background-color:#ffffff; //var(--white); 除了对话气泡和输入栏外的对话框的背景色
   min-width: 600px;
   min-height: 480px;
   max-width: 1200px;
@@ -42,7 +42,7 @@
   width: var(--sidebar-width);
   box-sizing: border-box;
   padding: 20px;
-  background-color:#202123;  //侧边栏的整个背景色
+  background-color:#db8282;  //侧边栏的整个背景色
   display: flex;
   flex-direction: column;
   box-shadow: inset -2px 0px 2px 0px rgb(0, 0, 0, 0.05);
@@ -204,7 +204,7 @@
 .chat-item-info {  
   display: flex;
   justify-content: space-between;
-  color:rgb(42, 54, 220);  //这里是侧边栏角色框信息条里的小字字体颜色（左边是第几条对话，右边是时间,如果出错的时候是：lnvalid Date)
+  color:rgb(0, 0, 0);  //这里是侧边栏角色框信息条里的小字字体颜色（左边是第几条对话，右边是时间,如果出错的时候是：lnvalid Date)
   font-size: 12px;
   margin-top: 8px;
   animation: slide-in ease 0.3s;
@@ -395,7 +395,7 @@
   max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
-  background-color:#444655;     // rgba(0, 0, 0, 0.05);
+  background-color:#676a84;     // rgba(0, 0, 0, 0.05);
   padding: 10px;
   font-size: 14px;
   user-select: text;
@@ -434,7 +434,7 @@
 }
 
 .chat-message-user > .chat-message-container > .chat-message-item {
-  background-color:#343541;   //var(--second);用户发送的内容的气泡背景颜色
+  background-color:#babdde;   //var(--second);用户发送的内容的气泡背景颜色
 }
 
 .chat-message-actions {
