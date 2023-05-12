@@ -103,7 +103,7 @@
   right: 0;
   height: 100%;
   width: $width;
-  background-color:var(--black); //未发现改变，GPT-4提示可能是侧边栏的拖动手柄的位置
+  background-color:var(--black); //未发现改变，GPT-4提示可能是侧边栏的拖动手柄的位置 已还原
   cursor: ew-resize;
   opacity: 0;
   transition: all ease 0.3s;
@@ -209,11 +209,11 @@
 }
 
 .chat-item:hover {
-  background-color:#FF6347; //var(--hover-color);侧边栏气泡对话框里鼠标要选择的时候的背景颜色
+  background-color: var(--hover-color);  //侧边栏气泡对话框里鼠标要选择的时候的背景颜色  
 }
 
 .chat-item-selected {
-  border-color:#FF8C8C; //var(--primary);侧边栏气泡对话框里鼠标要选择的时候的边框颜色
+  border-color: var(--primary);  //侧边栏气泡对话框里鼠标要选择的时候的边框颜色
 }
 
 .chat-item-title {
@@ -439,7 +439,7 @@
   max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
-  background-color:#FFA07A;     // rgba(0, 0, 0, 0.05);
+  background-color:rgba(0, 0, 0, 0.05);
   padding: 10px;
   font-size: 14px;
   user-select: text;
@@ -478,7 +478,7 @@
 }
 
 .chat-message-user > .chat-message-container > .chat-message-item {
-  background-color:#FFD700;   //var(--second);用户发送的内容的气泡背景颜色
+  background-color:var(--second);  //用户发送的内容的气泡背景颜色 
 }
 
 .chat-message-actions {
@@ -568,7 +568,7 @@
 
     &-selected,
     &:hover {
-      border-color:#FF8C8C;    //var(--primary);魔法棒里选什么内容就会出现边框，边框的颜色
+      border-color:var(--primary);  //魔法棒里选什么内容就会出现边框，边框的颜色
     }
   }
 }
@@ -593,7 +593,7 @@
 }
 
 .chat-input:focus {
-  border: 1px solid #FF8C8C;  //var(--primary);打字的框点击后出的边框颜色
+  border: 1px solid var(--primary); //打字的框点击后出的边框颜色
 }
 
 .chat-input-send {
