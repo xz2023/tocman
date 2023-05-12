@@ -3,7 +3,7 @@
   border: var(--border-in-light);
   border-radius: 20px;
   box-shadow: var(--shadow);
-  color:#ffffffe2; //var(--black)； 左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的字的颜色
+  color:#ffffffe2; //var(--black)； 左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的AI角色字的颜色
   background-color: var(--white);
   min-width: 600px;
   min-height: 480px;
@@ -153,7 +153,7 @@
 
 .chat-item {  //侧边栏气泡对话的样式和颜色（待确认）
   padding: 10px 14px;
-  background-color:#0d0d0c;   //var(--white);
+  background-color:#e66311;   //var(--white);
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
