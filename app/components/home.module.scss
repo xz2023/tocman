@@ -71,7 +71,7 @@
   right: 0;
   height: 100%;
   width: $width;
-  background-color: var(--black);
+  background-color:#dd11a0; //var(--black); 测试
   cursor: ew-resize;
   opacity: 0;
   transition: all ease 0.3s;
@@ -151,13 +151,13 @@
   overflow-x: hidden;
 }
 
-.chat-item {  //侧边栏气泡对话框里的背景颜色
+.chat-item {  
   padding: 10px 14px;
-  background-color:#202123;   //var(--white);
+  background-color:#202123;   //var(--white);侧边栏气泡对话框里的背景颜色
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
-  transition:background-color 0.3s ease; //更改未发现改变
+  transition:background-color 0.3s ease; //更改未发现改变（已经还原）
   cursor: pointer;
   user-select: none;
   border: 2px solid transparent;
@@ -201,10 +201,10 @@
   opacity: 1;
 }
 
-.chat-item-info {  //这里是侧边栏角色框信息条里的字体颜色
+.chat-item-info {  
   display: flex;
   justify-content: space-between;
-  color:rgb(166, 166, 166);
+  color:rgb(42, 54, 220);  //这里是侧边栏角色框信息条里的字体颜色
   font-size: 12px;
   margin-top: 8px;
   animation: slide-in ease 0.3s;
