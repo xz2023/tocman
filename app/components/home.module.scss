@@ -46,7 +46,7 @@
   width: var(--sidebar-width);
   box-sizing: border-box;
   padding: 20px;
-  background-color: var(--second);  //侧边栏的整个背景色
+  background-color: var(--primary);  //侧边栏的整个背景色
   display: flex;
   flex-direction: column;
   box-shadow: inset -2px 0px 2px 0px rgb(0, 0, 0, 0.05);
@@ -173,7 +173,7 @@
 }
 
 .chat-item-selected {
-  border-color: var(--primary);  //侧边栏气泡对话框里鼠标要选择的时候的边框颜色
+  border-color: var(--second);  //侧边栏气泡对话框里鼠标要选择的时候的边框颜色
 }
 
 .chat-item-title {
