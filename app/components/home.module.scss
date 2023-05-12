@@ -527,8 +527,8 @@
   border-radius: 10px;
   border: var(--border-in-light);
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.03);
-  background-color:#f7f9fa;   //var(--white); 打字的框里面的背景颜色
-  color:#0d0d0c;   //var(--black);打字的框中字体的颜色
+  background-color: var(--white);   //打字的框里面的背景颜色 还原
+  color: var(--black);  //打字的框中字体的颜色 还原
   font-family: inherit;
   padding: 10px 90px 10px 14px;
   resize: none;
