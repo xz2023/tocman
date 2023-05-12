@@ -71,7 +71,7 @@
   right: 0;
   height: 100%;
   width: $width;
-  background-color:#dd11a0; //var(--black); 未发现改变
+  background-color:#dd11a0; //var(--black); 未发现改变，GPT-4提示可能是侧边栏的拖动手柄的位置
   cursor: ew-resize;
   opacity: 0;
   transition: all ease 0.3s;
@@ -385,7 +385,7 @@
 
 .chat-message-status {
   font-size: 12px;
-  color: #aaa;  //未测试
+  color: #ec1010;  //测试
   line-height: 1.5;
   margin-top: 5px;
 }
