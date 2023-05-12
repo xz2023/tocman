@@ -1,10 +1,10 @@
 @mixin container {
-  background-color:var(--white);  //测试未发现在何处出现
+  background-color:var(--white);  //测试未发现在何处出现 还原
   border: var(--border-in-light);
   border-radius: 20px;
   box-shadow: var(--shadow);
-  color:#000000e2; //var(--black)； 左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的AI角色字的颜色
-  background-color:var(--white); //除了对话气泡和输入栏外的对话框的背景色
+  color: var(--black)；  //左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的AI角色字的颜色 还原
+  background-color:var(--white); //除了对话气泡和输入栏外的对话框的背景色 还原
   min-width: 600px;
   min-height: 480px;
   max-width: 1200px;
