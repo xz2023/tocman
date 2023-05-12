@@ -71,7 +71,7 @@
   right: 0;
   height: 100%;
   width: $width;
-  background-color:#dd11a0; //var(--black); 测试
+  background-color:#dd11a0; //var(--black); 未发现改变
   cursor: ew-resize;
   opacity: 0;
   transition: all ease 0.3s;
@@ -258,7 +258,7 @@
   .chat-item-narrow {
     line-height: 0;
     font-weight: lighter;
-    color:#dd11a0;   //var(--black);没看到
+    color:#dd11a0;   //var(--black);没看到改变
     transform: translateX(0);
     transition: all ease 0.3s;
     padding: 4px;
