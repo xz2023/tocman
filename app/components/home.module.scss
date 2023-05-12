@@ -151,9 +151,9 @@
   overflow-x: hidden;
 }
 
-.chat-item {  //侧边栏气泡对话的样式和颜色
+.chat-item {  //侧边栏气泡对话的样式和颜色（待确认）
   padding: 10px 14px;
-  background-color:var(--white);
+  background-color:#0d0d0c;   //var(--white);
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
@@ -540,8 +540,8 @@
 }
 
 .chat-input-send {
-  background-color:#e737cd;   //var(--primary);
-  color:#11dd5f; //white;
+  background-color:#e737cd;   //var(--primary);测试未知
+  color:#11dd5f; //white;测试未知
 
   position: absolute;
   right: 30px;
