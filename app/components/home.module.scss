@@ -1,10 +1,41 @@
+:root {
+  --primary: #3a86ff;
+  --secondary: #8be9fd;
+  --tertiary: #50fa7b;
+  --quaternary: #f1fa8c;
+  --quinary: #ffb86c;
+  --senary: #ff79c6;
+  --septenary: #bd93f9;
+  --octonary: #6272a4;
+}
+// @mixin container {
+//   background-color:var(--white);  //测试未发现在何处出现 还原
+//   border: var(--border-in-light);
+//   border-radius: 20px;
+//   box-shadow: var(--shadow);
+//   color: var(--black);  //左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的AI角色字的颜色 还原
+//   background-color:var(--white); //除了对话气泡和输入栏外的对话框的背景色 还原
+//   min-width: 600px;
+//   min-height: 480px;
+//   max-width: 1200px;
+
+//   display: flex;
+//   overflow: hidden;
+//   box-sizing: border-box;
+
+//   width: var(--window-width);
+//   height: var(--window-height);
+// }
+
+// .container {
+//   @include container();
+// }
 @mixin container {
-  background-color:var(--white);  //测试未发现在何处出现 还原
+  background-color: var(--quinary);
   border: var(--border-in-light);
   border-radius: 20px;
   box-shadow: var(--shadow);
-  color: var(--black);  //左上角网站名的颜色，但是跟所有的对话名字联动，包括预设角色里的AI角色字的颜色 还原
-  background-color:var(--white); //除了对话气泡和输入栏外的对话框的背景色 还原
+  color: var(--octonary);
   min-width: 600px;
   min-height: 480px;
   max-width: 1200px;
@@ -37,12 +68,23 @@
   }
 }
 
+// .sidebar {
+//   top: 0;
+//   width: var(--sidebar-width);
+//   box-sizing: border-box;
+//   padding: 20px;
+//   background-color:#FFC1C1;  //var(--second);  侧边栏的整个背景色
+//   display: flex;
+//   flex-direction: column;
+//   box-shadow: inset -2px 0px 2px 0px rgb(0, 0, 0, 0.05);
+//   position: relative;
+//   transition: width ease 0.05s;
 .sidebar {
   top: 0;
   width: var(--sidebar-width);
   box-sizing: border-box;
   padding: 20px;
-  background-color:#FFC1C1;  //var(--second);  侧边栏的整个背景色
+  background-color: var(--senary);
   display: flex;
   flex-direction: column;
   box-shadow: inset -2px 0px 2px 0px rgb(0, 0, 0, 0.05);
@@ -151,13 +193,25 @@
   overflow-x: hidden;
 }
 
-.chat-item {  
+// .chat-item {  
+//   padding: 10px 14px;
+//   background-color:#FFD9D9;   //var(--white);侧边栏气泡对话框里的背景颜色
+//   border-radius: 10px;
+//   margin-bottom: 10px;
+//   box-shadow: var(--card-shadow);
+//   transition:background-color 0.3s ease; //更改未发现改变（已经还原）
+//   cursor: pointer;
+//   user-select: none;
+//   border: 2px solid transparent;
+//   position: relative;
+// }
+.chat-item {
   padding: 10px 14px;
-  background-color:#FFD9D9;   //var(--white);侧边栏气泡对话框里的背景颜色
+  background-color: var(--quinary);
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
-  transition:background-color 0.3s ease; //更改未发现改变（已经还原）
+  transition: background-color 0.3s ease;
   cursor: pointer;
   user-select: none;
   border: 2px solid transparent;
@@ -450,6 +504,18 @@
   color: #aaa;  //AI角色下面对话的时间颜色
 }
 
+// .chat-input-panel {
+//   position: relative;
+//   width: 100%;
+//   padding: 20px;
+//   padding-top: 10px;
+//   box-sizing: border-box;
+//   flex-direction: column;
+//   border-top-left-radius: 10px;
+//   border-top-right-radius: 10px;
+//   border-top: var(--border-in-light);
+//   box-shadow: var(--card-shadow);
+// }
 .chat-input-panel {
   position: relative;
   width: 100%;
@@ -461,6 +527,7 @@
   border-top-right-radius: 10px;
   border-top: var(--border-in-light);
   box-shadow: var(--card-shadow);
+  background-color: var(--tertiary);
 }
 
 @mixin single-line {
