@@ -165,11 +165,11 @@
 }
 
 .chat-item:hover {
-  background-color:#dd11a0; //var(--hover-color);
+  background-color:#202127; //var(--hover-color);侧边栏气泡对话框里鼠标要选择的时候的背景颜色
 }
 
 .chat-item-selected {
-  border-color:#11dd5f; //var(--primary);
+  border-color:#ddd611; //var(--primary);侧边栏气泡对话框里鼠标要选择的时候的边框颜色
 }
 
 .chat-item-title {
