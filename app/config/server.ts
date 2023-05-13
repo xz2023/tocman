@@ -7,7 +7,7 @@ declare global {
       CODE?: string;
       PROXY_URL?: string;
       VERCEL?: string;
-      HIDE_USER_API_KEY?: 1; // disable user's api key input
+      HIDE_USER_API_KEY?: string; // disable user's api key input
     }
   }
 }
