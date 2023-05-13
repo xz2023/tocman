@@ -381,6 +381,7 @@ export function MaskPage() {
             title={Locale.Mask.EditModal.Title(editingMask?.builtin)}
             onClose={closeMaskModal}
             actions={[
+              null,
               {/*<IconButton
                 icon={<DownloadIcon />}
                 text={Locale.Mask.EditModal.Download}
