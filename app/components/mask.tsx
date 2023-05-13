@@ -259,11 +259,11 @@ export function MaskPage() {
               />*/}
             </div>
             <div className="window-action-button">
-              <IconButton
+              {/*<IconButton  用花括号注释后上传按钮被隐藏了
                 icon={<UploadIcon />}
                 bordered
                 onClick={() => importFromFile()}
-              />
+              />*/}
             </div>
             <div className="window-action-button">
               <IconButton
