@@ -157,7 +157,7 @@
 
 .chat-item {  
   padding: 10px 14px;
-  background-color:var(--lightred);  //侧边栏气泡对话框里的背景颜色 测试166
+  background-color:var(--gray);  //侧边栏气泡对话框里的背景颜色 测试166
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
@@ -557,7 +557,7 @@
 }
 
 .chat-input-send {
-  background-color: var(--lightred);   //没看到改变已经还原 测试165
+  background-color: var(--lightred);   //没看到改变已经还原 测试167
   color:white;   //没看到改变已经还原
 
   position: absolute;
