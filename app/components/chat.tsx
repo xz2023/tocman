@@ -94,15 +94,14 @@ function exportMessages(messages: Message[], topic: string) {
         bordered
         text={Locale.Export.Copy}
         onClick={() => copyToClipboard(mdText)}
-      />, 
-      {/*
-      <IconButton   //隐藏按钮：178
-        key="download"
-        icon={<DownloadIcon />}
-        bordered
-        text={Locale.Export.Download}
-        onClick={() => downloadAs(mdText, filename)}
-    />, */}
+      />,
+      // <IconButton   隐藏按钮：178
+      //   key="download"
+      //   icon={<DownloadIcon />}
+      //   bordered
+      //   text={Locale.Export.Download}
+      //   onClick={() => downloadAs(mdText, filename)}
+      // />,
     ],
   });
 }
