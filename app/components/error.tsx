@@ -49,14 +49,14 @@ export class ErrorBoundary extends React.Component<any, IErrorBoundaryState> {
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <a href={ISSUE_URL} className="report">
               <IconButton
-                text="Report This Error"
+                text="联系官方客服"
                 icon={<GithubIcon />}
                 bordered
               />
             </a>
             <IconButton
               icon={<ResetIcon />}
-              text="Clear All Data"
+              text="重新加载"
               onClick={() =>
                 confirm(Locale.Settings.Actions.ConfirmClearAll) &&
                 this.clearAndSaveData()
