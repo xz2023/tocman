@@ -94,7 +94,7 @@ function exportMessages(messages: Message[], topic: string) {
         bordered
         text={Locale.Export.Copy}
         onClick={() => copyToClipboard(mdText)}
-      /> //, (原来有一个,号)
+      />, 
       {/*
       <IconButton   //隐藏按钮：178
         key="download"
