@@ -208,7 +208,7 @@
 .chat-item-info {  
   display: flex;
   justify-content: space-between;
-  color:rgb(0, 0, 0);  //这里是侧边栏角色框信息条里的小字字体颜色（左边是第几条对话，右边是时间,如果出错的时候是：lnvalid Date)
+  color:var(--black);  //这里是侧边栏角色框信息条里的小字字体颜色（左边是第几条对话，右边是时间,如果出错的时候是：lnvalid Date)
   font-size: 12px;
   margin-top: 8px;
   animation: slide-in ease 0.3s;
