@@ -375,8 +375,6 @@ export function MaskPage() {
         </div>
       </div>
 
-      const hideDownloadButton = true; // 设置为true以隐藏按钮,为false以显示按钮。
-
       {editingMask && (
         <div className="modal-mask">
           <Modal
