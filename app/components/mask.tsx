@@ -381,7 +381,7 @@ export function MaskPage() {
             title={Locale.Mask.EditModal.Title(editingMask?.builtin)}
             onClose={closeMaskModal}
             actions={[
-              <IconButton
+              {/*<IconButton
                 icon={<DownloadIcon />}
                 text={Locale.Mask.EditModal.Download}
                 key="export"
@@ -392,7 +392,7 @@ export function MaskPage() {
                     `${editingMask.name}.json`,
                   )
                 }
-              />,
+              />,*/},
               <IconButton
                 key="copy"
                 icon={<CopyIcon />}
