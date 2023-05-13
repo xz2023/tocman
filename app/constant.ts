@@ -1,5 +1,5 @@
-export const OWNER = "Yidadaa";
-export const REPO = "ChatGPT-Next-Web";
+export const OWNER = "zuotongxue";
+export const REPO = "GPTMAN";
 export const REPO_URL = `https://www.baidu.com`;
 export const ISSUE_URL = `https://www.baidu.com`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
