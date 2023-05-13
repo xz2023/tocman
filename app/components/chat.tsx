@@ -95,7 +95,7 @@ function exportMessages(messages: Message[], topic: string) {
         text={Locale.Export.Copy}
         onClick={() => copyToClipboard(mdText)}
       />,
-      // <IconButton  隐藏下载按钮
+      // <IconButton  隐藏下载按钮，但是不会直接消失，还需要到mask.tsx上注释其他2个位置
       //   key="download"
       //   icon={<DownloadIcon />}
       //   bordered

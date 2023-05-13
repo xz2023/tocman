@@ -252,7 +252,7 @@ export function MaskPage() {
 
           <div className="window-actions">
             <div className="window-action-button">
-              {/*<IconButton
+              {/*<IconButton  用花括号注释后下载按钮被隐藏了
                 icon={<DownloadIcon />}
                 bordered
                 onClick={downloadAll}
@@ -381,8 +381,7 @@ export function MaskPage() {
             title={Locale.Mask.EditModal.Title(editingMask?.builtin)}
             onClose={closeMaskModal}
             actions={[
-              null,
-              {/*<IconButton
+              <IconButton
                 icon={<DownloadIcon />}
                 text={Locale.Mask.EditModal.Download}
                 key="export"
@@ -393,7 +392,7 @@ export function MaskPage() {
                     `${editingMask.name}.json`,
                   )
                 }
-              />,*/},
+              />,
               <IconButton
                 key="copy"
                 icon={<CopyIcon />}
