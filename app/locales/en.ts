@@ -140,13 +140,13 @@ const en: LocaleType = {
       Placeholder: "OpenAI API Key",
     },
     Usage: {
-      Title: "Account Balance",
+      Title:"", //"Account Balance",
       SubTitle(used: any, total: any) {
-        return `Used this month $${used}, subscription $${total}`;
+        return ''; //`Used this month $${used}, subscription $${total}`;
       },
-      IsChecking: "Checking...",
-      Check: "Check",
-      NoAccess: "Enter API Key to check balance",
+      IsChecking:"", //"Checking...",
+      Check: "",  //"Check",
+      NoAccess: "",  //"Enter API Key to check balance",
     },
     AccessCode: {
       Title: "Access Code",
