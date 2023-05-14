@@ -1,6 +1,6 @@
 import { Mask } from "../store/mask";
 import { CN_MASKS } from "./cn";
-import { EN_MASKS } from "./en";
+//import { EN_MASKS } from "./en";  隐藏英文面具
 
 import { type BuiltinMask } from "./typing";
 export { type BuiltinMask } from "./typing";
@@ -21,6 +21,6 @@ export const BUILTIN_MASK_STORE = {
   },
 };
 
-export const BUILTIN_MASKS: Mask[] = [...CN_MASKS, ...EN_MASKS].map((m) =>
+export const BUILTIN_MASKS: Mask[] = [...CN_MASKS].map((m) =>  //, ...EN_MASKS 原来是在括号里，跟CN_MASKS在一起
   BUILTIN_MASK_STORE.add(m),
 );
