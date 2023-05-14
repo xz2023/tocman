@@ -1,14 +1,14 @@
 {
-    "name": "ChatGPT Next Web",
-    "short_name": "ChatGPT",
+    "name": "GPTMAN创造者联盟",
+    "short_name": "GPTMAN",
     "icons": [
       {
-        "src": "/android-chrome-192x192.png",
+        "src": "/zion192*192.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "/android-chrome-512x512.png",
+        "src": "/zion512*512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
