@@ -10,7 +10,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 GPTMAN 的 ${count} 条对话`, //对话框最上方与ChatGPT对话的位置的更改为GPTMAN，导入聊天记录在下面43行
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -40,7 +40,7 @@ const cn = {
     Copy: "全部复制",
     Download: "下载文件",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 ChatGPT 的消息",
+    MessageFromChatGPT: "来自 GPTMAN 的消息",  //导出聊天记录需要更改发言人ChatGPT为 GPTMAN
   },
   Memory: {
     Title: "历史摘要",
