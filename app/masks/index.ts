@@ -1,6 +1,6 @@
 import { Mask } from "../store/mask";
 import { CN_MASKS } from "./cn";
-//import { EN_MASKS } from "./en";  隐藏英文面具
+//import { EN_MASKS } from "./en";  隐藏英文角色
 
 import { type BuiltinMask } from "./typing";
 export { type BuiltinMask } from "./typing";
