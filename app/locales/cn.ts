@@ -40,7 +40,7 @@ const cn = {
     Copy: "全部复制",
     Download: "下载文件",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 GPTMAN 的消息",  //导出聊天记录需要更改发言人ChatGPT为 GPTMAN
+    MessageFromChatGPT: "来自 GPTMAN 的消息", //导出聊天记录需要更改发言人ChatGPT为 GPTMAN
   },
   Memory: {
     Title: "历史摘要",
@@ -107,17 +107,17 @@ const cn = {
     },
     Prompt: {
       Disable: {
-        Title: "禁用提示词自动补全",
+        Title: "禁用魔法棒自动补全",
         SubTitle: "在输入框开头输入 / 即可触发自动补全",
       },
-      List: "自定义提示词列表",
+      List: "自定义魔法棒列表",
       ListCount: (builtin: number, custom: number) =>
         `内置 ${builtin} 条，用户定义 ${custom} 条`,
       Edit: "编辑",
       Modal: {
-        Title: "提示词列表",
+        Title: "魔法棒列表",
         Add: "增加一条",
-        Search: "搜索提示词",
+        Search: "搜索魔法棒",
       },
     },
     HistoryCount: {

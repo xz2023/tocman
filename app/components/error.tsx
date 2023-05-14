@@ -1,6 +1,6 @@
 import React from "react";
 import { IconButton } from "./button";
-import GithubIcon from "../icons/github.svg";
+import GithubIcon from "../icons/diqiubucuo1.svg";
 import ResetIcon from "../icons/reload.svg";
 import { ISSUE_URL } from "../constant";
 import Locale from "../locales";
@@ -48,15 +48,11 @@ export class ErrorBoundary extends React.Component<any, IErrorBoundaryState> {
 
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <a href={ISSUE_URL} className="report">
-              <IconButton
-                text="Report This Error"
-                icon={<GithubIcon />}
-                bordered
-              />
+              <IconButton text="联系官方客服" icon={<GithubIcon />} bordered />
             </a>
             <IconButton
               icon={<ResetIcon />}
-              text="Clear All Data"
+              text="重新加载"
               onClick={() =>
                 confirm(Locale.Settings.Actions.ConfirmClearAll) &&
                 this.clearAndSaveData()

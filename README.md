@@ -80,7 +80,7 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 - 用户登录、账号管理、消息云同步
 
 ## 最新动态
-- 🚀 v2.0 已经发布，现在你可以使用角色功能快速创建预制对话了！ 了解更多： [ChatGPT 提示词高阶技能：零次、一次和少样本提示](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
+- 🚀 v2.0 已经发布，现在你可以使用角色功能快速创建预制对话了！ 了解更多： [ChatGPT 魔法棒高阶技能：零次、一次和少样本提示](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
 
 
 
