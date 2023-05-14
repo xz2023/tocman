@@ -7,10 +7,10 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "GPTMAN:商业实践俱乐部",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "GPT⁺星球锡安基地测试",
+  description: "Your personal zion Chat Bot.",
   appleWebApp: {
-    title: "GPTMAN:商业实践俱乐部",
+    title: "GPT⁺星球锡安基地测试",
     statusBarStyle: "default",
   },
   themeColor: "#fafafa",
