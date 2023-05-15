@@ -173,7 +173,7 @@
 }
 
 .chat-item-selected {
-  border-color: var(--second);  //侧边栏气泡对话框里鼠标要选择的时候的边框颜色
+  border-color: var(--primary);  //侧边栏气泡对话框里鼠标要选择的时候的边框颜色
 }
 
 .chat-item-title {
@@ -262,7 +262,7 @@
   .chat-item-narrow {
     line-height: 0;
     font-weight: lighter;
-    color: var(--black);   //没看到改变已经还原
+    color: var(--second);   //没看到改变已经还原
     transform: translateX(0);
     transition: all ease 0.3s;
     padding: 4px;
