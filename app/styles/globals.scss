@@ -82,7 +82,7 @@
   --lightred:rgb(136, 32, 34);
 
   /* 描边 */
-  --border-in-light: 1px solid rgb(165, 42, 42);//rgba(184, 134, 11, 0.192);  /* 将边框颜色更改 */
+  --border-in-light: 1px solid rgba(184, 134, 11, 0.192);  /* 将边框颜色更改 */
 
   div:not(.no-dark) > svg {
     filter: invert(0.5);  /* 对非.no-dark的div内的svg应用反转滤镜 */
