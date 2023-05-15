@@ -136,24 +136,16 @@ const it: LocaleType = {
         "Utilizzare la chiave per ignorare il limite del codice di accesso",
       Placeholder: "OpenAI API Key",
     },
+
     Usage: {
-      Title: "",
+      Title: "Bilancio Account",
       SubTitle(used: any, total: any) {
-        return ``;
+        return `Attualmente usato in questo mese $${used}, soglia massima $${total}`;
       },
-      IsChecking: "",
-      Check: "",
-      NoAccess: "",
+      IsChecking: "Controllando...",
+      Check: "Controlla ancora",
+      NoAccess: "Inserire la chiave API per controllare il saldo",
     },
-    // Usage: {
-    //   Title: "Bilancio Account",
-    //   SubTitle(used: any, total: any) {
-    //     return `Attualmente usato in questo mese $${used}, soglia massima $${total}`;
-    //   },
-    //   IsChecking: "Controllando...",
-    //   Check: "Controlla ancora",
-    //   NoAccess: "Inserire la chiave API per controllare il saldo",
-    // },
     AccessCode: {
       Title: "Codice d'accesso",
       SubTitle: "Controllo d'accesso abilitato",
