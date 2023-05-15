@@ -28,27 +28,27 @@ async function fetchCN() {
 const jsonTemp = [
   {
     "act": "基础",
-    "prompt": "可以详细展开来说说吗？”。\n"
+    "prompt": "可以详细展开来说说吗？\n"
   },
   {
     "act": "基础",
-    "prompt": "可以举几个例子具体说明吗？”\n"
+    "prompt": "可以举几个例子具体说明吗？\n"
   },
   {
     "act": "基础",
-    "prompt": "可以再多列出一些要点吗？“\n"
+    "prompt": "可以再多列出一些要点吗？\n"
   },
   {
     "act": "进阶",
-    "prompt": "可以用MECE原则来梳理呈现这些要点吗？”\n"
+    "prompt": "可以用MECE原则来梳理呈现这些要点吗? \n"
   },
   {
     "act": "进阶",
-    "prompt": "可以帮我拎清这些要点之间的因果关系吗？”\n"
+    "prompt": "可以帮我拎清这些要点之间的因果关系吗？\n"
   },
   {
     "act": "进阶",
-    "prompt": "可以帮我从英语资料，包括谷歌论文里找相关资料来分析论述吗？”\n"
+    "prompt": "可以帮我从英语资料，包括谷歌论文里找相关资料来分析论述吗？\n"
   }];
 
     return jsonTemp.map((v) => [v.act, v.prompt]);
