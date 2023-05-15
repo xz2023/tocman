@@ -292,12 +292,12 @@ export function MaskPage() {
             </select>
 
             <div className={styles["mask-create"]}>
-              <IconButton
+              {/* <IconButton
                 icon={<AddIcon />}
                 text={Locale.Mask.Page.Create}
                 bordered
                 onClick={() => maskStore.create()}
-              />
+              /> */}
             </div>
           </div>
 
@@ -326,8 +326,7 @@ export function MaskPage() {
                       navigate(Path.Chat);
                     }}
                   />
-                  {m.builtin ? //   icon={<EyeIcon />} // <IconButton
-                  //   text={Locale.Mask.Item.View}
+                  {m.builtin ? //   text={Locale.Mask.Item.View} //   icon={<EyeIcon />} // <IconButton
                   //   onClick={() => setEditingMaskId(m.id)}
                   // />
                   null : (
