@@ -204,7 +204,7 @@
 .chat-item-info {
   display: flex;
   justify-content: space-between;
-  color: rgb(166, 166, 166);
+  color: rgb(166, 166, 166);  //这里是侧边栏角色框信息条里的小字字体颜色（左边是第几条对话，右边是时间,如果出错的时候是：lnvalid Date)
   font-size: 12px;
   margin-top: 8px;
   animation: slide-in ease 0.3s;
@@ -384,7 +384,7 @@
 
 .chat-message-status {
   font-size: 12px;
-  color: #aaa;
+  color: #aaa;   //测试145：用户和AI角色（正在说话）这几个字的字体颜色
   line-height: 1.5;
   margin-top: 5px;
 }
@@ -394,7 +394,7 @@
   max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.05);   //AI角色回复的对话框的气泡背景颜色
   padding: 10px;
   font-size: 14px;
   user-select: text;
@@ -418,7 +418,7 @@
 
   .chat-message-top-action {
     opacity: 0.5;
-    color: var(--black);
+    color: var(--black);  //这个位置是AI回复的内容复制、重试、删除的按钮字的颜色
     white-space: nowrap;
     cursor: pointer;
 
@@ -446,7 +446,7 @@
 }
 
 .chat-message-action-date {
-  color: #aaa;
+  color: #aaa;  //AI角色下面对话的时间颜色
 }
 
 .chat-input-panel {
@@ -476,14 +476,14 @@
   display: flex;
   flex-direction: column-reverse;
 
-  background-color: var(--white);
+  background-color: var(--white);  //魔法棒背后的背景色
   border: var(--border-in-light);
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--shadow);
 
   .prompt-hint {
-    color: var(--black);
+    color: var(--black);  //魔法棒背后的字体颜色
     padding: 6px 10px;
     animation: slide-in ease 0.3s;
     cursor: pointer;
@@ -510,7 +510,7 @@
 
     &-selected,
     &:hover {
-      border-color: var(--primary);
+      border-color: var(--primary);  //魔法棒里选什么内容就会出现边框，边框的颜色
     }
   }
 }
@@ -525,9 +525,9 @@
   width: 100%;
   border-radius: 10px;
   border: var(--border-in-light);
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.03);
-  background-color: var(--white);
-  color: var(--black);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.03);  
+  background-color: var(--white);  //打字的框里面的背景颜色
+  color: var(--black);  //打字的框中字体的颜色
   font-family: inherit;
   padding: 10px 90px 10px 14px;
   resize: none;
@@ -535,11 +535,11 @@
 }
 
 .chat-input:focus {
-  border: 1px solid var(--primary);
+  border: 1px solid var(--primary); //打字的框点击后出的边框颜色
 }
 
 .chat-input-send {
-  background-color: var(--primary);
+  background-color: var(--primary); 
   color: white;
 
   position: absolute;
