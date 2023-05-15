@@ -137,14 +137,23 @@ const it: LocaleType = {
       Placeholder: "OpenAI API Key",
     },
     Usage: {
-      Title: "Bilancio Account",
+      Title: "",
       SubTitle(used: any, total: any) {
-        return `Attualmente usato in questo mese $${used}, soglia massima $${total}`;
+        return ``;
       },
-      IsChecking: "Controllando...",
-      Check: "Controlla ancora",
-      NoAccess: "Inserire la chiave API per controllare il saldo",
+      IsChecking: "",
+      Check: "",
+      NoAccess: "",
     },
+    // Usage: {
+    //   Title: "Bilancio Account",
+    //   SubTitle(used: any, total: any) {
+    //     return `Attualmente usato in questo mese $${used}, soglia massima $${total}`;
+    //   },
+    //   IsChecking: "Controllando...",
+    //   Check: "Controlla ancora",
+    //   NoAccess: "Inserire la chiave API per controllare il saldo",
+    // },
     AccessCode: {
       Title: "Codice d'accesso",
       SubTitle: "Controllo d'accesso abilitato",

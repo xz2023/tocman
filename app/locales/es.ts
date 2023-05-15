@@ -136,14 +136,23 @@ const es: LocaleType = {
       Placeholder: "Clave de la API de OpenAI",
     },
     Usage: {
-      Title: "Saldo de la cuenta",
+      Title: "",
       SubTitle(used: any, total: any) {
-        return `Usado $${used}, subscription $${total}`;
+        return ``;
       },
-      IsChecking: "Comprobando...",
-      Check: "Comprobar de nuevo",
-      NoAccess: "Introduzca la clave API para comprobar el saldo",
+      IsChecking: "",
+      Check: "",
+      NoAccess: "",
     },
+    // Usage: {
+    //   Title: "Saldo de la cuenta",
+    //   SubTitle(used: any, total: any) {
+    //     return `Usado $${used}, subscription $${total}`;
+    //   },
+    //   IsChecking: "Comprobando...",
+    //   Check: "Comprobar de nuevo",
+    //   NoAccess: "Introduzca la clave API para comprobar el saldo",
+    // },
     AccessCode: {
       Title: "Código de acceso",
       SubTitle: "Control de acceso habilitado",

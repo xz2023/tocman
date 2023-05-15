@@ -138,14 +138,23 @@ const jp: LocaleType = {
       Placeholder: "OpenAI APIキー",
     },
     Usage: {
-      Title: "残高照会",
+      Title: "",
       SubTitle(used: any, total: any) {
-        return `今月は $${used} を使用しました。総額は $${total} です。`;
+        return ``;
       },
-      IsChecking: "確認中...",
-      Check: "再確認",
-      NoAccess: "APIキーまたはアクセスパスワードを入力して残高を表示",
+      IsChecking: "",
+      Check: "",
+      NoAccess: "",
     },
+    // Usage: {
+    //   Title: "残高照会",
+    //   SubTitle(used: any, total: any) {
+    //     return `今月は $${used} を使用しました。総額は $${total} です。`;
+    //   },
+    //   IsChecking: "確認中...",
+    //   Check: "再確認",
+    //   NoAccess: "APIキーまたはアクセスパスワードを入力して残高を表示",
+    // },
     AccessCode: {
       Title: "アクセスパスワード",
       SubTitle: "暗号化アクセスが有効になっています",

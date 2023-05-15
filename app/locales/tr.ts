@@ -136,14 +136,23 @@ const tr: LocaleType = {
       Placeholder: "OpenAI API Anahtarı",
     },
     Usage: {
-      Title: "Hesap Bakiyesi",
+      Title: "",
       SubTitle(used: any, total: any) {
-        return `Bu ay kullanılan $${used}, abonelik $${total}`;
+        return ``;
       },
-      IsChecking: "Kontrol ediliyor...",
-      Check: "Tekrar Kontrol Et",
-      NoAccess: "Bakiyeyi kontrol etmek için API anahtarını girin",
+      IsChecking: "",
+      Check: "",
+      NoAccess: "",
     },
+    // Usage: {
+    //   Title: "Hesap Bakiyesi",
+    //   SubTitle(used: any, total: any) {
+    //     return `Bu ay kullanılan $${used}, abonelik $${total}`;
+    //   },
+    //   IsChecking: "Kontrol ediliyor...",
+    //   Check: "Tekrar Kontrol Et",
+    //   NoAccess: "Bakiyeyi kontrol etmek için API anahtarını girin",
+    // },
     AccessCode: {
       Title: "Erişim Kodu",
       SubTitle: "Erişim kontrolü etkinleştirme",
