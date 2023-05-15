@@ -135,15 +135,25 @@ const en: LocaleType = {
       SubTitle: "If you have a more advanced key(GPT4.0), please enter it.", //"Use your key to ignore access code limit",
       Placeholder: "OpenAI API Key",
     },
+
     Usage: {
-      Title: "Account Balance",
+      Title: "",
       SubTitle(used: any, total: any) {
-        return `Used this month $${used}, subscription $${total}`;
+        return ``;
       },
-      IsChecking: "Checking...",
-      Check: "Check",
-      NoAccess: "Enter API Key to check balance",
+      IsChecking: "",
+      Check: "",
+      NoAccess: "",
     },
+    // Usage: {
+    //   Title: "Account Balance",
+    //   SubTitle(used: any, total: any) {
+    //     return `Used this month $${used}, subscription $${total}`;
+    //   },
+    //   IsChecking: "Checking...",
+    //   Check: "Check",
+    //   NoAccess: "Enter API Key to check balance",
+    // },
     AccessCode: {
       Title: "Access Code",
       SubTitle: "Access control enabled",
