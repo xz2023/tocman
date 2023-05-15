@@ -153,7 +153,7 @@
 
 .chat-item {
   padding: 10px 14px;
-  background-color: var(--white);
+  background-color: var(--white); //侧边栏气泡对话框里的背景颜色
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
@@ -165,11 +165,11 @@
 }
 
 .chat-item:hover {
-  background-color: var(--hover-color);
+  background-color: var(--hover-color);  //侧边栏气泡对话框里鼠标要选择的时候的背景颜色
 }
 
 .chat-item-selected {
-  border-color: var(--primary);
+  border-color: var(--primary);  //侧边栏气泡对话框里鼠标要选择的时候的边框颜色
 }
 
 .chat-item-title {
