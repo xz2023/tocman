@@ -237,18 +237,18 @@ export function MaskPage() {
 
           <div className="window-actions">
             <div className="window-action-button">
-              <IconButton
+              {/*<IconButton
                 icon={<DownloadIcon />}
                 bordered
                 onClick={downloadAll}
-              />
+              />*/}
             </div>
             <div className="window-action-button">
-              <IconButton
+              {/*<IconButton
                 icon={<UploadIcon />}
                 bordered
                 onClick={() => showToast(Locale.WIP)}
-              />
+              />*/}
             </div>
             <div className="window-action-button">
               <IconButton
@@ -326,8 +326,7 @@ export function MaskPage() {
                       navigate(Path.Chat);
                     }}
                   />
-                  {m.builtin ? // <IconButton
-                  //   icon={<EyeIcon />}
+                  {m.builtin ? //   icon={<EyeIcon />} // <IconButton
                   //   text={Locale.Mask.Item.View}
                   //   onClick={() => setEditingMaskId(m.id)}
                   // />

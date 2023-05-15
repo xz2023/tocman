@@ -98,13 +98,13 @@ function exportMessages(messages: Message[], topic: string) {
         text={Locale.Export.Copy}
         onClick={() => copyToClipboard(mdText)}
       />,
-      <IconButton
-        key="download"
-        icon={<DownloadIcon />}
-        bordered
-        text={Locale.Export.Download}
-        onClick={() => downloadAs(mdText, filename)}
-      />,
+      // <IconButton
+      //   key="download"
+      //   icon={<DownloadIcon />}
+      //   bordered
+      //   text={Locale.Export.Download}
+      //   onClick={() => downloadAs(mdText, filename)}
+      // />,
     ],
   });
 }
