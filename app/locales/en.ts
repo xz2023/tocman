@@ -132,7 +132,7 @@ const en: LocaleType = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "Use your key to ignore access code limit",
+      SubTitle: "If you have a more advanced key(GPT4.0), please enter it.", //"Use your key to ignore access code limit",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
