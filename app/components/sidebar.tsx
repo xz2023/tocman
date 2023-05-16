@@ -150,11 +150,12 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
-          {/* <div className={styles["sidebar-action"]}>  //先部署其他的内容
-            <a href={ZILIAOKU_URL} target="_blank">
-              <IconButton icon={<ZiliaokuIcon />} shadow />
-            </a>
-          </div> */}
+          <div className={styles["sidebar-action"]}>
+             {" "}
+            <a href={ZILIAOKU_URL} target="_blank">
+                  <IconButton icon={<ZiliaokuIcon />} shadow /> {" "}
+            </a>
+          </div>
         </div>
         <div>
           <IconButton
