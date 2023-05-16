@@ -7,6 +7,7 @@ import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/diqiubucuo1.svg";
 import ChatGptIcon from "../icons/zion2929.svg";
 import AddIcon from "../icons/add.svg";
+import ZiliaokuIcon from "../icons/ziliaoku.svg"; // 添加资料库新按钮在此处
 import CloseIcon from "../icons/close.svg";
 import MaskIcon from "../icons/mofamao3.svg";
 import PluginIcon from "../icons/plugin.svg";
@@ -149,6 +150,11 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
+          {/* <div className={styles["sidebar-action"]}>  //先部署其他的内容
+            <a href={ZILIAOKU_URL} target="_blank">
+              <IconButton icon={<ZiliaokuIcon />} shadow />
+            </a>
+          </div> */}
         </div>
         <div>
           <IconButton
