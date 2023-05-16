@@ -1,93 +1,93 @@
 @import "./animation.scss";
 @import "./window.scss";
 
-// @mixin light {
-//   --theme: light;
-
-//   /* color */
-//   --white: white;
-//   --black: rgb(48, 48, 48);
-//   --gray: rgb(250, 250, 250);
-//   --primary: rgb(29, 147, 171);
-//   --second: rgb(231, 248, 255);
-//   --hover-color: #f3f3f3;
-//   --bar-color: rgba(0, 0, 0, 0.1);
-//   --theme-color: var(--gray);
-
-//   /* shadow */
-//   --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);
-//   --card-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.05);
-
-//   /* stroke */
-//   --border-in-light: 1px solid rgb(222, 222, 222);
-// }
-
-// @mixin dark {
-//   --theme: dark;
-
-//   /* color */
-//   --white: rgb(30, 30, 30);
-//   --black: rgb(187, 187, 187);
-//   --gray: rgb(21, 21, 21);
-//   --primary: rgb(29, 147, 171);
-//   --second: rgb(27 38 42);
-//   --hover-color: #323232;
-
-//   --bar-color: rgba(255, 255, 255, 0.1);
-
-//   --border-in-light: 1px solid rgba(255, 255, 255, 0.192);
-
-//   --theme-color: var(--gray);
-
-//   div:not(.no-dark) > svg {
-//     filter: invert(0.5);
-//   }
-// }
 @mixin light {
   --theme: light;
 
-  /* 颜色 */
-  --white: white;  /* 白色 */
-  --black: rgb(48, 48, 48);  /* 黑色 */
-  --gray: rgb(250, 250, 250);  /* 灰色 */
-  --huise: rgb(247, 247, 248);  /* ChatGPT AI对话灰色 */
-  --primary: rgb(255, 241, 204);  /* 将主色调更改为金色 */
-  --second: rgb(200, 0, 0); //rgb(255, 215, 154);  //rgb(240, 192, 90);  /* 将第二颜色更改为浅金色 */
-  --hover-color: rgb(200, 0, 0);  /* 将悬停颜色更改为稍深的红色 */
-  --bar-color: rgba(255, 0, 0, 0.1);  /* 将条颜色更改为浅红色 */
-  --theme-color: var(--gray);  /* 主题颜色 */
-  --lightred:rgb(215, 79, 81);
+  /* color */
+  --white: white;
+  --black: rgb(48, 48, 48);
+  --gray: rgb(250, 250, 250);
+  --primary: rgb(29, 147, 171);
+  --second: rgb(231, 248, 255);
+  --hover-color: #f3f3f3;
+  --bar-color: rgba(0, 0, 0, 0.1);
+  --theme-color: var(--gray);
 
-  /* 阴影 */
-  --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);  /* 阴影 */
-  --card-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.05);  /* 卡片阴影 */
+  /* shadow */
+  --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);
+  --card-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.05);
 
-  /* 描边 */
-  --border-in-light: 1px solid rgb(222, 222, 222);  /* 浅色边框 */
+  /* stroke */
+  --border-in-light: 1px solid rgb(222, 222, 222);
 }
 
 @mixin dark {
   --theme: dark;
 
-  /* 颜色 */
-  --white: rgb(30, 30, 30);  /* 白色 */
-  --black: rgb(187, 187, 187);  /* 黑色 */
-  --gray: rgb(21, 21, 21);  /* 灰色 */
-  --huise: rgb(21, 21, 21);  /* ChatGPT AI对话灰色 */
-  --primary: rgb(153, 102, 0);  /* 将主色调更改为深色 */
-  --second:  rgb(200, 0, 0);//rgb(128, 107, 77);  //rgb(136,107,32);  /* 将第二颜色更改为深金色 */
-  --hover-color: rgb(165, 42, 42);  /* 将悬停颜色更改为稍亮的红色 */
-  --bar-color: rgba(139, 0, 0, 0.1);  /* 将条颜色更改为深红色 */
-  --theme-color: var(--gray);  /* 主题颜色 */
-  --lightred:rgb(136, 32, 34);
+  /* color */
+  --white: rgb(30, 30, 30);
+  --black: rgb(187, 187, 187);
+  --gray: rgb(21, 21, 21);
+  --primary: rgb(29, 147, 171);
+  --second: rgb(27 38 42);
+  --hover-color: #323232;
 
-  /* 描边 */
-  --border-in-light: 1px solid rgba(184, 134, 11, 0.192);  /* 将边框颜色更改 */
+  --bar-color: rgba(255, 255, 255, 0.1);
+
+  --border-in-light: 1px solid rgba(255, 255, 255, 0.192);
+
+  --theme-color: var(--gray);
 
   div:not(.no-dark) > svg {
-    filter: invert(0.5);  /* 对非.no-dark的div内的svg应用反转滤镜 */
+    filter: invert(0.5);
   }
 }
+// @mixin light {
+//   --theme: light;
+
+//   /* 颜色 */
+//   --white: white;  /* 白色 */
+//   --black: rgb(48, 48, 48);  /* 黑色 */
+//   --gray: rgb(250, 250, 250);  /* 灰色 */
+//   --huise: rgb(247, 247, 248);  /* ChatGPT AI对话灰色 */
+//   --primary: rgb(255, 241, 204);  /* 将主色调更改为金色 */
+//   --second: rgb(200, 0, 0); //rgb(255, 215, 154);  //rgb(240, 192, 90);  /* 将第二颜色更改为浅金色 */
+//   --hover-color: rgb(200, 0, 0);  /* 将悬停颜色更改为稍深的红色 */
+//   --bar-color: rgba(255, 0, 0, 0.1);  /* 将条颜色更改为浅红色 */
+//   --theme-color: var(--gray);  /* 主题颜色 */
+//   --lightred:rgb(215, 79, 81);
+
+//   /* 阴影 */
+//   --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);  /* 阴影 */
+//   --card-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.05);  /* 卡片阴影 */
+
+//   /* 描边 */
+//   --border-in-light: 1px solid rgb(222, 222, 222);  /* 浅色边框 */
+// }
+
+// @mixin dark {
+//   --theme: dark;
+
+//   /* 颜色 */
+//   --white: rgb(30, 30, 30);  /* 白色 */
+//   --black: rgb(187, 187, 187);  /* 黑色 */
+//   --gray: rgb(21, 21, 21);  /* 灰色 */
+//   --huise: rgb(21, 21, 21);  /* ChatGPT AI对话灰色 */
+//   --primary: rgb(153, 102, 0);  /* 将主色调更改为深色 */
+//   --second:  rgb(200, 0, 0);//rgb(128, 107, 77);  //rgb(136,107,32);  /* 将第二颜色更改为深金色 */
+//   --hover-color: rgb(165, 42, 42);  /* 将悬停颜色更改为稍亮的红色 */
+//   --bar-color: rgba(139, 0, 0, 0.1);  /* 将条颜色更改为深红色 */
+//   --theme-color: var(--gray);  /* 主题颜色 */
+//   --lightred:rgb(136, 32, 34);
+
+//   /* 描边 */
+//   --border-in-light: 1px solid rgba(184, 134, 11, 0.192);  /* 将边框颜色更改 */
+
+//   div:not(.no-dark) > svg {
+//     filter: invert(0.5);  /* 对非.no-dark的div内的svg应用反转滤镜 */
+//   }
+// }
 
 
 .light {
