@@ -22,6 +22,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
+  ZILIAOKU_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
