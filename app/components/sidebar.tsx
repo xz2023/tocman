@@ -151,9 +151,8 @@ export function SideBar(props: { className?: string }) {
             </a>
           </div>
           <div className={styles["sidebar-action"]}>
-             {" "}
             <a href={ZILIAOKU_URL} target="_blank">
-                  <IconButton icon={<ZiliaokuIcon />} shadow /> {" "}
+              <IconButton icon={<ZiliaokuIcon />} shadow />
             </a>
           </div>
         </div>
