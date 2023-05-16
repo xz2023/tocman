@@ -152,6 +152,8 @@ export function SideBar(props: { className?: string }) {
           </div>
           <div className={styles["sidebar-action"]}>
             <a href={ZILIAOKU_URL} target="_blank">
+              {" "}
+              {/*添加资料库新按钮在此处*/}
               <IconButton icon={<ZiliaokuIcon />} shadow />
             </a>
           </div>
