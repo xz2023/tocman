@@ -102,9 +102,11 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>一起用AI武装自己.</div> */}
         <div className={styles["sidebar-sub-title"]}>
           <a href="" target="_blank">
+            {" "}
+            {/*“”里可以填写链接*/}
             <img
-              width="80%"
-              src="https://i.328888.xyz/2023/05/17/VVOdXZ.png"
+              width="70%"
+              src="https://i.328888.xyz/2023/05/17/VVrpJ5.png"
               alt=""
             />
           </a>
