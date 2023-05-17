@@ -101,10 +101,10 @@ export function SideBar(props: { className?: string }) {
         {/* <div className={styles["sidebar-title"]}>GPT⁺星球锡安基地内测</div>
         <div className={styles["sidebar-sub-title"]}>一起用AI武装自己.</div> */}
         <div className={styles["sidebar-sub-title"]}>
-          <a href="https://freeopenai.xyz/" target="_blank">
+          <a href="" target="_blank">
             <img
-              width="100%"
-              src="https://www.ainavpro.com/wp-content/uploads/2023/04/1231681138778_.pic_-e1681139306140.jpg"
+              width="80%"
+              src="https://i.328888.xyz/2023/05/17/VVOdXZ.png"
               alt=""
             />
           </a>
