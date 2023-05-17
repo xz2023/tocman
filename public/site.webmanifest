@@ -3,12 +3,12 @@
     "short_name": "GPTMAN",
     "icons": [
       {
-        "src": "/wizard192*192.png",
+        "src": "/gptmanlogo192*192.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "/wizard512*512.png",
+        "src": "/gptmanlogo512*512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
