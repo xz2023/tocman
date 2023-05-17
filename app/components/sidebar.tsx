@@ -5,7 +5,7 @@ import styles from "./home.module.scss";
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/diqiubucuo2.svg";
-import ChatGptIcon from "../icons/mofashi.svg";
+import ChatGptIcon from "../icons/gptmanlogo.svg";
 import ZiliaokuIcon from "../icons/ziliaoku.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
