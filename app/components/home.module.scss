@@ -135,7 +135,7 @@
 .sidebar-logo {
   position: absolute;
   left: 50%;
-  bottom: calc(36px);
+  bottom: calc(150% - 18px);
   transform: translate(-50%, -50%);
 }
 
