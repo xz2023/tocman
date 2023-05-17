@@ -127,10 +127,16 @@
   padding-bottom: 20px;
 }
 
+// .sidebar-logo {
+//   position: absolute;
+//   right: 0;
+//   bottom: 18px;
+// }
 .sidebar-logo {
   position: absolute;
-  right: 0;
-  bottom: 18px;
+  left: 50%;
+  bottom: calc(50% - 18px);
+  transform: translate(-50%, -50%);
 }
 
 .sidebar-title {
