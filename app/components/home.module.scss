@@ -135,8 +135,8 @@
 .sidebar-logo {
   position: absolute;
   left: 50%;
-  bottom: calc(150% - 18px);
-  transform: translate(-50%, -50%);
+  bottom: calc(50% - 18px);
+  transform: translate(100%);
 }
 
 .sidebar-title {
