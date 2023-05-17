@@ -7,10 +7,10 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "GPTMAN", //网页导航栏的最上端
+  title: "GPTMAN Club", //网页导航栏的最上端
   description: "Your personal zion Chat Bot.",
   appleWebApp: {
-    title: "GPTMAN", //网页导航栏的最上端
+    title: "GPTMAN Club", //网页导航栏的最上端
     statusBarStyle: "default",
   },
   themeColor: "#fafafa",
