@@ -131,10 +131,16 @@
   padding-bottom: 40px;  //这里是侧边栏头部的高度变大，原来是20px
 }
 
-.sidebar-logo {
-  position: absolute; 
-  right: 50%;
-  bottom: calc(20% - 18px); //前面的%是logo的位置，数字越大越往下;
+// .sidebar-logo {
+//   position: absolute;
+//   right: 0;
+//   bottom: 18px;
+// }
+.sidebar-logo {  //这里是侧边栏头部的logo的位置信息
+  position: absolute;  
+  left: 50%;  
+  bottom: calc(35% - 18px); //前面的%是logo的位置，数字越大越往上
+  transform: translate(-50%); //这个是logo的位置，数字越大越往右
 }
 
 .sidebar-title {
