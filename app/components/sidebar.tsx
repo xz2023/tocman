@@ -22,7 +22,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
-  ZILIAOKU_URL, // 添加资料库新按钮引用一下链接在此处
+  ZILIAOKU_URL, // 添加资料库新按钮引用一下URL在此处
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -105,14 +105,14 @@ export function SideBar(props: { className?: string }) {
             {" "}
             {/*“”里可以填写链接*/}
             <img
-              width="80%"
-              src="https://i.328888.xyz/2023/05/17/VV3gLq.png"
+              width="100%"
+              src="https://i.328888.xyz/2023/05/17/VVRtPb.png"
               alt=""
             />
           </a>
-        </div>
+          {/* </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <ChatGptIcon />
+          <ChatGptIcon /> */}
         </div>
       </div>
 
