@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 import styles from "./home.module.scss";
 
-import BotIcon from "../icons/gptmanlogo.svg"; //可能是更改主页加载时的内容
+import BotIcon from "../icons/gptmanlogo.svg"; //更改主页加载时的图标
 import LoadingIcon from "../icons/three-dots.svg";
 
 import { getCSSVar, useMobileScreen } from "../utils";

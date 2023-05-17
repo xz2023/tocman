@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码。\n[图片]（https://imgur.com/DUAREmD）",
+      "现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码。\n[图片]（https://i.328888.xyz/2023/05/17/VVOdXZ.png）",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
