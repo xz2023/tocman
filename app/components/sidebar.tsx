@@ -22,7 +22,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
-  ZILIAOKU_URL,
+  ZILIAOKU_URL, // 添加资料库新按钮引用一下链接在此处
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
