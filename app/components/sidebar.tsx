@@ -5,7 +5,7 @@ import styles from "./home.module.scss";
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/diqiubucuo2.svg";
-import ChatGptIcon from "../icons/gptmanlogo.svg";
+import ChatGptIcon from "../icons/gptmanlogoda.svg";
 import ZiliaokuIcon from "../icons/ziliaoku.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
@@ -99,19 +99,9 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]}>
         {/* <div className={styles["sidebar-title"]}>小林同学</div>
-        <div className={styles["sidebar-sub-title"]}>一起用AI武装自己.</div>
+        <div className={styles["sidebar-sub-title"]}>一起用AI武装自己.</div> */}
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <ChatGptIcon /> */}
-        <div className={styles["sidebar-sub-title"]}>
-          <a href="" target="_blank">
-            {" "}
-            {/*“”里可以填写链接*/}
-            <img
-              width="100%"
-              src="https://i.328888.xyz/2023/05/18/VVmCjx.png"
-              alt=""
-            />
-          </a>
+          <ChatGptIcon />
         </div>
       </div>
 
