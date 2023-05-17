@@ -106,7 +106,7 @@ export function SideBar(props: { className?: string }) {
             {/*“”里可以填写链接*/}
             <img
               width="100%"
-              src="https://i.328888.xyz/2023/05/17/VVRtPb.png"
+              src="https://i.328888.xyz/2023/05/17/VVcDr8.png"
               alt=""
             />
           </a>
