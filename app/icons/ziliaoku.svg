@@ -1,11 +1,8 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="16.000000pt" height="16.000000pt" viewBox="0 0 16.000000 16.000000"
- preserveAspectRatio="xMidYMid meet">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="16" height="16">
 
-<g transform="translate(0.000000,16.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image  x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA2RJREFUOI09k79PG2ccxp9772x6Nj5j+wy1jVIpCOEsXUojMbB1aFXRkkpEHfpPtFXGSlaUSpWijgyoc4YCUgkpSQlVU5WUn24g4ItUSmgAY/sc7DNn7nTO3ft+u0Cf6TM8w6NHzwMAmJqaChGRAgC3b38zurG+/u/Gxjo9mL/vzN+fc9fWVnmxWDQnJyfHAICIpEKhEAYAFAoFhgs9fvzoq+XlP3i9XifHcfjBwQHt7++Tbdui0WjQysqftLS0dOfSPz09LUsX3D0z8+MPV68OfN5ut3HlyjsilUoxWZYBAEIIWM2mODw6ZJFIBCflk8VPx8e/AHAKAJidnf2eiOiFYfiNRoMTkTg7O6OnT5fpyZPfqNlsEuecWq2WMIzSGyKixcVf7gGAAkDuTac/cV0Huf5+cdmF67ro6+0DXXAikQBjTMrl+nF+fg5N0z4EEJdWVlaukxDruf5+ns1m5dev65BlGbGYBs45SAiEwmHYtg3OOVKpFCyr6R8dHYUAMcZevvzno97eNHp6evje3h6KxSLC4TAikQgYY5AYg6qqiEQieL69BcMoIRqNUlpP49Wrw4+VwcGhzzLZHFRVlVVVRT5/DURApVJBu22DiBCLxaCqEQwN5eEHAbqjMQUkYWBg8IZCJMAYQ7lchq7rCAIf0WgUyWQShtFEEATI56+Bcw7BOd5SVRyXj5FIJEAkoNRq5nwoZLybzea4pmmybdvwPA+dTgfZbA6MMbRaLciyDCUUQnd3N3zfD/b2/g7XarUHTNf1nx3HgWnWFMuy4Ps+Tk9P4TjnSCQSiMfj6HQ6ME0TnHNYloVK5YR5ngddT8+z0dHRvyRI+5lMhoXD4YBzjtLuDqymBdM0Ua1W0bZt7O48h+d56OrqEslkUpFlpTEyMrLMAARmvf6or+9tuI7T0TSN3hseRkrXkU6nkclkoMXjGH7/OpLJJFzXdTOZLM4s63cArctZR2dmpqdLpV0qbm5yzrlfN01yHEd4nieq1SoJIYLt7S2/VNqlubmffgWgAwC7OJMzMXHz5vFx+WsuOLMsS5EVJXhhGNL21pakKEpgWZYMIqVarXw7Pn7jAwCn/x+xUCgwIpIA4NatL0fXVlePd3d26OHCgv9wYcHfevaMNjfXm3fvfjd2GXliYkIGgP8AkWjZIxYTYgMAAAAASUVORK5CYII=" preserveAspectRatio="none" width="12" height="12"/>
 </g>
 </svg>
