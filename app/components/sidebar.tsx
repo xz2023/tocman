@@ -98,10 +98,20 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>小林同学</div>
+        {/* <div className={styles["sidebar-title"]}>小林同学</div>
         <div className={styles["sidebar-sub-title"]}>一起用AI武装自己.</div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <ChatGptIcon />
+          <ChatGptIcon /> */}
+        <div className={styles["sidebar-sub-title"]}>
+          <a href="" target="_blank">
+            {" "}
+            {/*“”里可以填写链接*/}
+            <img
+              width="100%"
+              src="https://i.328888.xyz/2023/05/17/VVcDr8.png"
+              alt=""
+            />
+          </a>
         </div>
       </div>
 
