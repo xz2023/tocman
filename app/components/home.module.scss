@@ -132,11 +132,11 @@
 //   right: 0;
 //   bottom: 18px;
 // }
-.sidebar-logo {
-  position: absolute;
-  left: 50%;
-  bottom: calc(15% - 18px);
-  transform: translate(-50%);
+.sidebar-logo {  //这里是侧边栏头部的logo的位置信息
+  position: absolute;  
+  left: 50%;  
+  bottom: calc(10% - 18px); //前面的%是logo的位置，数字越大越往下
+  transform: translate(-50%); //这个是logo的位置，数字越大越往右
 }
 
 .sidebar-title {
