@@ -264,7 +264,7 @@
   .chat-item-narrow {
     line-height: 0;
     font-weight: lighter;
-    color: var(--rgb);  //未知 测试92
+    color: var(--black);  //未知,改了多次没有看到变化
     transform: translateX(0);
     transition: all ease 0.3s;
     padding: 4px;

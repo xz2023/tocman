@@ -40,7 +40,7 @@ const cn = {
     Copy: "全部复制",
     Download: "下载文件",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 GPTMAN 的消息", //导出聊天记录需要更改发言人ChatGPT为 GPTMAN
+    MessageFromChatGPT: "来自 AI语言模型 的消息", //导出聊天记录需要更改发言人ChatGPT为 GPTMAN
   },
   Memory: {
     Title: "历史摘要",
