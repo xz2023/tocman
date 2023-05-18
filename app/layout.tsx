@@ -8,7 +8,7 @@ const buildConfig = getBuildConfig();
 
 export const metadata = {
   title: "GPTMAN Club",
-  description: "Your personal GPTMAN Chat Bot.", //测试是否可以更改与ChatGPT对话的位置
+  description: "GPT创造者俱乐部.", //网站的简介
   appleWebApp: {
     title: "GPTMAN Club",
     statusBarStyle: "default",
