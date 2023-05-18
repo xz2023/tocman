@@ -10,7 +10,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 小林同学 的 ${count} 条对话`, //改与谁对话的界面
+    SubTitle: (count: number) => "回复由AI语言模型生成,与平台无关", //`与 小林同学 的 ${count} 条对话`, //对话框最上方与ChatGPT对话的位置的更改为GPTMAN，导入聊天记录在下面43行
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -40,7 +40,7 @@ const cn = {
     Copy: "全部复制",
     Download: "下载文件",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 小林同学 的消息", //消息导出是与谁对话
+    MessageFromChatGPT: "来自 AI语言模型 的消息", //消息导出是与谁对话
   },
   Memory: {
     Title: "历史摘要",

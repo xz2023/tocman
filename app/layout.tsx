@@ -7,10 +7,10 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "GPTMAN",
-  description: "Your personal GPTMAN Chat Bot.",  //测试是否可以更改与ChatGPT对话的位置
+  title: "GPTMAN Club",
+  description: "Your personal GPTMAN Chat Bot.", //测试是否可以更改与ChatGPT对话的位置
   appleWebApp: {
-    title: "GPTMAN",
+    title: "GPTMAN Club",
     statusBarStyle: "default",
   },
   themeColor: "#fafafa",
