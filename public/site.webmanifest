@@ -1,5 +1,5 @@
 {
-    "name": "GPTMAN Club",  //桌面快捷方式可以看到的名字
+    "name": "GPTMAN Club",  //电脑桌面快捷方式可以看到的名字
     "short_name": "GPTMAN", //手机桌面快捷方式可以看到的名字
     "icons": [
       {
