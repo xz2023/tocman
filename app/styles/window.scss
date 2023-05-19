@@ -23,8 +23,9 @@
   }
 
   .window-header-sub-title {
-    font-size: 14px;
+    font-size: 8px;  //改小林同学下方的字体大小
     margin-top: 5px;
+    color: var(--bar-color);  //改小林同学下方的字体颜色
   }
 }
 
