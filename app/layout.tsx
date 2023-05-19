@@ -8,7 +8,7 @@ const buildConfig = getBuildConfig();
 
 export const metadata = {
   title: "GPTMAN Club", //网页导航栏的最上端
-  description: "Your personal zion Chat Bot.",
+  description: "GPT创造者俱乐部.", //网站的简介
   appleWebApp: {
     title: "GPTMAN Club", //网页导航栏的最上端
     statusBarStyle: "default",

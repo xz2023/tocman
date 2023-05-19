@@ -13,7 +13,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
       {
         role: "assistant",
-        content: "我是小林同学，请说你的问题",
+        content: "你好，我是小林同学。有什么可以帮到你？",
         date: "",
       },
     ],
