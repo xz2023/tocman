@@ -25,7 +25,7 @@
   .window-header-sub-title {
     font-size: 14px;
     margin-top: 5px;
-    color: red;  //测试是否可以改小林同学下方的颜色
+    color: var(--bar-color);  //测试是否可以改小林同学下方的颜色
   }
 }
 
