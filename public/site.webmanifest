@@ -1,6 +1,6 @@
 {
-    "name": "GPTMAN Club", //网站放到桌面时的名称
-    "short_name": "GPTMAN",
+    "name": "GPTMAN Club",   //网站放到桌面时的名称
+    "short_name": "GPTMAN",  //网站放到桌面时的短名称
     "icons": [
       {
         "src": "/gptmanlogo192*192.png",
