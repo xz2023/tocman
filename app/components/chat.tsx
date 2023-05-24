@@ -746,7 +746,7 @@ export function Chat() {
         })}
       </div>
 
-      <div className={styles["chat-input-panel"]}>
+      {/* <div className={styles["chat-input-panel"]}>
         <PromptHints prompts={promptHints} onPromptSelect={onPromptSelect} />
 
         <ChatActions
@@ -777,6 +777,44 @@ export function Chat() {
             }}
             autoFocus
             rows={inputRows}
+          />
+          <IconButton
+            icon={<SendWhiteIcon />}
+            text={Locale.Chat.Send}
+            className={styles["chat-input-send"]}
+            type="primary"
+            onClick={onUserSubmit}
+          />
+        </div>
+      </div>
+    </div>
+  );
+} */}
+
+      <div className={styles["chat-input-panel"]}>
+        <PromptHints prompts={promptHints} onPromptSelect={onPromptSelect} />
+
+        <ChatActions
+          showPromptModal={() => setShowPromptModal(true)}
+          scrollToBottom={scrollToBottom}
+          hitBottom={hitBottom}
+          showPromptHints={() => {
+            inputRef.current?.focus();
+            onSearch("");
+          }}
+        />
+        <div className={styles["chat-input-panel-inner"]}>
+          <textarea
+            ref={inputRef}
+            className={styles["chat-input"]}
+            placeholder={Locale.Chat.Input(submitKey)}
+            onInput={(e) => onInput(e.currentTarget.value)}
+            value={userInput}
+            onKeyDown={onInputKeyDown}
+            onFocus={() => setAutoScroll(true)}
+            onBlur={() => setAutoScroll(false)}
+            rows={inputRows}
+            autoFocus={autoFocus}
           />
           <IconButton
             icon={<SendWhiteIcon />}
