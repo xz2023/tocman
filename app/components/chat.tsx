@@ -799,7 +799,14 @@ export function Chat() {
           scrollToBottom={scrollToBottom}
           hitBottom={hitBottom}
           showPromptHints={() => {
+            // Click again to close
+            if (promptHints.length > 0) {
+              setPromptHints([]);
+              return;
+            }
+
             inputRef.current?.focus();
+            setUserInput("/");
             onSearch("");
           }}
         />
@@ -812,9 +819,16 @@ export function Chat() {
             value={userInput}
             onKeyDown={onInputKeyDown}
             onFocus={() => setAutoScroll(true)}
-            onBlur={() => setAutoScroll(false)}
+            onBlur={() => {
+              setTimeout(() => {
+                if (document.activeElement !== inputRef.current) {
+                  setAutoScroll(false);
+                  setPromptHints([]);
+                }
+              }, 100);
+            }}
+            autoFocus
             rows={inputRows}
-            autoFocus={autoFocus}
           />
           <IconButton
             icon={<SendWhiteIcon />}
