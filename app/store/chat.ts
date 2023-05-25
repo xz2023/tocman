@@ -55,11 +55,11 @@ export interface ChatSession {
   mask: Mask;
 }
 
-export const DEFAULT_TOPIC = Locale.Store.DefaultTopic;
-export const BOT_HELLO: Message = createMessage({
-  role: "assistant",
-  content: Locale.Store.BotHello,
-});
+// export const DEFAULT_TOPIC = Locale.Store.DefaultTopic;
+// export const BOT_HELLO: Message = createMessage({
+//   role: "assistant",
+//   content: Locale.Store.BotHello,
+// });
 
 function createEmptySession(): ChatSession {
   return {
