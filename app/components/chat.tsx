@@ -790,7 +790,7 @@ export function Chat() {
     </div>
   );
 } */}
-
+      {/* 优化魔法棒的点击 */}
       <div className={styles["chat-input-panel"]}>
         <PromptHints prompts={promptHints} onPromptSelect={onPromptSelect} />
 
@@ -820,12 +820,12 @@ export function Chat() {
             onKeyDown={onInputKeyDown}
             onFocus={() => setAutoScroll(true)}
             onBlur={() => {
-              setTimeout(() => {
-                if (document.activeElement !== inputRef.current) {
-                  setAutoScroll(false);
-                  setPromptHints([]);
-                }
-              }, 100);
+              // setTimeout(() => { 100毫秒的时间注释掉了
+              if (document.activeElement !== inputRef.current) {
+                setAutoScroll(false);
+                setPromptHints([]);
+              }
+              // }, 100);
             }}
             autoFocus
             rows={inputRows}
