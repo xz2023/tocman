@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码。如你没有获得密码，请加微信咨询：\n\n这是一张图片![图片说明](/favicon-16x16.png)",
+      "现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码。如你没有获得密码，请加微信咨询：\n\n![图片](/favicon-16x16.png)", //未授权状态下的提示信息直接出图片
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
