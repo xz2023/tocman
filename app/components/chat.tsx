@@ -820,12 +820,12 @@ export function Chat() {
             onKeyDown={onInputKeyDown}
             onFocus={() => setAutoScroll(true)}
             onBlur={() => {
-              // setTimeout(() => { 100毫秒的时间注释掉了
-              if (document.activeElement !== inputRef.current) {
-                setAutoScroll(false);
-                setPromptHints([]);
-              }
-              // }, 100);
+              setTimeout(() => {
+                if (document.activeElement !== inputRef.current) {
+                  setAutoScroll(false);
+                  setPromptHints([]);
+                }
+              }, 100);
             }}
             autoFocus
             rows={inputRows}
