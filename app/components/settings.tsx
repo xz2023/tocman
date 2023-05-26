@@ -426,37 +426,7 @@ export function Settings() {
               }}
             />
           </ListItem>
-        </List>
 
-        {/* {!hideListItem && (
-            <ListItem
-              title={Locale.Settings.Usage.Title}
-              subTitle={
-                showUsage
-                  ? loadingUsage
-                    ? Locale.Settings.Usage.IsChecking
-                    : Locale.Settings.Usage.SubTitle(
-                        usage?.used ?? "[?]",
-                        usage?.subscription ?? "[?]",
-                      )
-                  : Locale.Settings.Usage.NoAccess
-              }
-            >
-              {!showUsage || loadingUsage ? (
-                <div />
-              ) : (
-                <IconButton
-                  icon={<ResetIcon></ResetIcon>}
-                  text={Locale.Settings.Usage.Check}
-                  onClick={() => checkUsage(true)}
-                />
-              )}
-            </ListItem>
-          )}{" "}
-          :null
-        </List> */}
-
-        {hideListItem ? null : (
           <ListItem
             title={Locale.Settings.Usage.Title}
             subTitle={
@@ -467,20 +437,20 @@ export function Settings() {
                       usage?.used ?? "[?]",
                       usage?.subscription ?? "[?]",
                     )
-                : null
+                : Locale.Settings.Usage.NoAccess
             }
           >
             {!showUsage || loadingUsage ? (
               <div />
             ) : (
               <IconButton
-                icon={<ResetIcon />}
+                icon={<ResetIcon></ResetIcon>}
                 text={Locale.Settings.Usage.Check}
                 onClick={() => checkUsage(true)}
               />
             )}
           </ListItem>
-        )}
+        </List>
 
         <List>
           <ListItem
