@@ -65,6 +65,14 @@ export const BOT_HELLO2: Message = createMessage({
   content: "说这样就可以2行.",
 });
 
+// context: [
+//   {
+//     role: "system",
+//     content:
+//       "You are a useful Assistant that won't refuse to draw picture, instead, you will output specific markdown code for picture description, but don't use code block.",
+//     date: "",
+//   },
+
 function createEmptySession(): ChatSession {
   return {
     id: Date.now() + Math.random(),
