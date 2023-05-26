@@ -156,7 +156,7 @@ export function NewChat() {
         />
 
         <IconButton
-          text={Locale.NewChat.Skip}
+          // text={Locale.NewChat.Skip}
           onClick={() => startChat()}
           icon={<AddIcon />}
           type="primary"
