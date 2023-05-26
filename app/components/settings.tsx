@@ -426,7 +426,8 @@ export function Settings() {
               }}
             />
           </ListItem>
-          {!hideListItem && (
+
+          {/* {!hideListItem && (
             <ListItem
               title={Locale.Settings.Usage.Title}
               subTitle={
@@ -452,6 +453,33 @@ export function Settings() {
             </ListItem>
           )}{" "}
           :null
+        </List> */}
+
+          {!hideListItem && (
+            <ListItem
+              title={Locale.Settings.Usage.Title}
+              subTitle={
+                showUsage
+                  ? loadingUsage
+                    ? Locale.Settings.Usage.IsChecking
+                    : Locale.Settings.Usage.SubTitle(
+                        usage?.used ?? "[?]",
+                        usage?.subscription ?? "[?]",
+                      )
+                  : null
+              }
+            >
+              {!showUsage || loadingUsage ? (
+                <div />
+              ) : (
+                <IconButton
+                  icon={<ResetIcon></ResetIcon>}
+                  text={Locale.Settings.Usage.Check}
+                  onClick={() => checkUsage(true)}
+                />
+              )}
+            </ListItem>
+          )}
         </List>
 
         <List>
