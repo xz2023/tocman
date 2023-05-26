@@ -395,7 +395,7 @@ export function Settings() {
           </ListItem>
         </List>
 
-        {enabledAccessControl && (
+        {showSettings && (
           <List>
             {enabledAccessControl ? (
               <ListItem
