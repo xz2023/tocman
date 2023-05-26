@@ -660,7 +660,7 @@ export function Chat() {
             !(message.preview || message.content.length === 0);
           const showTyping = message.preview || message.streaming;
 
-          if (i > 0) {
+          if (i > -1) {
             //隐藏预设角色系统指令或魔法棒的第N条，其中0为第一条以此类推
             return (
               <div
