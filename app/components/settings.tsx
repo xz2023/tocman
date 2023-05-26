@@ -395,7 +395,7 @@ export function Settings() {
           </ListItem>
         </List>
 
-        {showSettings && (
+        {/* {enabledAccessControl && (
           <List>
             {enabledAccessControl ? (
               <ListItem
@@ -452,7 +452,7 @@ export function Settings() {
               )}
             </ListItem>
           </List>
-        )}
+        )} */}
 
         <List>
           <ListItem
