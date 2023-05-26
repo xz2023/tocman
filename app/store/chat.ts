@@ -57,7 +57,7 @@ export interface ChatSession {
 
 export const DEFAULT_TOPIC = Locale.Store.DefaultTopic;
 export const BOT_HELLO: Message = createMessage({
-  // role: "assistant",
+  role: "assistant",
   content: "你这样说话可以吗？", //Locale.Store.BotHello,
 });
 export const BOT_HELLO_SECOND: Message = createMessage({
