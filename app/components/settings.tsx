@@ -426,7 +426,7 @@ export function Settings() {
               }}
             />
           </ListItem>
-          {!hideListItem && (
+          {!hideListItem ? (
             <ListItem
               title={Locale.Settings.Usage.Title}
               subTitle={
@@ -450,8 +450,7 @@ export function Settings() {
                 />
               )}
             </ListItem>
-          )}{" "}
-          :null
+          ) : null}{" "}
         </List>
 
         <List>
