@@ -60,7 +60,7 @@ export const BOT_HELLO: Message = createMessage({
   role: "assistant",
   content: "你这样说话可以吗？", //Locale.Store.BotHello,
 });
-export const BOT_HELLO1: Message = createMessage({
+export const BOT_HELLO2: Message = createMessage({
   role: "user",
   content: "说这样就可以2行.",
 });
