@@ -413,7 +413,6 @@ export function Settings() {
           ) : (
             <></>
           )}
-
           <ListItem
             title={Locale.Settings.Token.Title}
             subTitle={Locale.Settings.Token.SubTitle}
@@ -427,7 +426,6 @@ export function Settings() {
               }}
             />
           </ListItem>
-
           {!hideListItem && (
             <ListItem
               title={Locale.Settings.Usage.Title}
@@ -452,7 +450,8 @@ export function Settings() {
                 />
               )}
             </ListItem>
-          )}
+          )}{" "}
+          :null
         </List>
 
         <List>
