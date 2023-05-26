@@ -155,13 +155,13 @@ export function NewChat() {
           onClick={() => navigate(Path.Masks)}
         />
 
-        <IconButton
+        {/* <IconButton
           // text={Locale.NewChat.Skip}
           onClick={() => startChat()}
           // icon={<AddIcon />}
           type="primary"
           shadow
-        />
+        /> */}
       </div>
 
       <div className={styles["masks"]}>
