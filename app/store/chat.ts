@@ -78,8 +78,8 @@ const Messages: Array<Message> = [
 
 return (
   <Styled.ChatContainer>
-    {Messages.map((Message, index) => {
-      return <MessageBubble key={index} Message={Message} />;
+    {Messages.map((message, index) => {
+      return <MessageBubble key={index} message={message} />;
     })}
   </Styled.ChatContainer>
 );
