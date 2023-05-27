@@ -64,11 +64,16 @@ export const BOT_HELLO2: Message = createMessage({
   role: "user",
   content: "说这样就可以2行.",
 });
+export const BOT_HELLO3: Message = createMessage({
+  role: "assistant",
+  content: "请问您需要什么帮助？",
+});
 
-const messages: Array<Message> = [
+
+const Messages: Array<Message> = [
   BOT_HELLO,
   BOT_HELLO2,
-  //BOT_HELLO3, // 加入新对话
+  BOT_HELLO3, // 加入新对话
 ];
 
 return (
@@ -78,6 +83,7 @@ return (
     })}
   </Styled.ChatContainer>
 );
+
 
 // context: [
 //   {
