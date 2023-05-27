@@ -55,20 +55,20 @@ export interface ChatSession {
   mask: Mask;
 }
 
-export const DEFAULT_TOPIC = Locale.Store.DefaultTopic;
-export const BOT_HELLO: Message = createMessage({
-  role: "assistant",
-  content: "你这样说话可以吗？", //Locale.Store.BotHello,
-});
-export const BOT_HELLO2: Message = createMessage({
-  role: "user",
-  content: "说这样就可以2行.",
-});
-export const BOT_HELLO3: Message = createMessage({
-  role: "assistant",
-  content: "请问您需要什么帮助？",
-});
+import React from 'react';
 
+type Message = {
+  role: "user" | "assistant";
+  content: string;
+};
+
+function createMessage(role: "user" | "assistant", content: string): Message {
+  return { role, content };
+}
+
+const BOT_HELLO: Message = createMessage("assistant", "你这样说话可以吗？");
+const BOT_HELLO2: Message = createMessage("user", "说这样就可以2行.");
+const BOT_HELLO3: Message = createMessage("assistant", "请问您需要什么帮助？");
 
 const Messages: Array<Message> = [
   BOT_HELLO,
@@ -76,13 +76,23 @@ const Messages: Array<Message> = [
   BOT_HELLO3,
 ];
 
-return (
-  <Styled.ChatContainer>
-    {Messages.map((message, index) => {
-      return <MessageBubble key={index} message={message} />;
-    })}
-  </Styled.ChatContainer>
-);
+const ChatContainer = () => {
+  return (
+    <div>
+      {Messages.map((message, index) => {
+        return (
+          <p key={index}>
+            <strong>{message.role}: </strong>{message.content}
+          </p>
+        );
+      })}
+    </div>
+  );
+};
+
+export default ChatContainer;
+
+
 
 
 
