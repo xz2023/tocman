@@ -73,7 +73,7 @@ export const BOT_HELLO3: Message = createMessage({
 const Messages: Array<Message> = [
   BOT_HELLO,
   BOT_HELLO2,
-  BOT_HELLO3, // 加入新对话
+  BOT_HELLO3,
 ];
 
 return (
