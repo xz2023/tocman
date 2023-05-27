@@ -57,25 +57,30 @@ export interface ChatSession {
 
 import React from 'react';
 
+// Define Message type
 type Message = {
   role: "user" | "assistant";
   content: string;
 };
 
+// Define createMessage function
 function createMessage(role: "user" | "assistant", content: string): Message {
   return { role, content };
 }
 
+// Create Message objects
 const BOT_HELLO: Message = createMessage("assistant", "你这样说话可以吗？");
 const BOT_HELLO2: Message = createMessage("user", "说这样就可以2行.");
 const BOT_HELLO3: Message = createMessage("assistant", "请问您需要什么帮助？");
 
+// Array of Messages
 const Messages: Array<Message> = [
   BOT_HELLO,
   BOT_HELLO2,
   BOT_HELLO3,
 ];
 
+// Define ChatContainer component
 const ChatContainer = () => {
   return (
     <div>
@@ -90,10 +95,8 @@ const ChatContainer = () => {
   );
 };
 
+// Export the component
 export default ChatContainer;
-
-
-
 
 
 // context: [
