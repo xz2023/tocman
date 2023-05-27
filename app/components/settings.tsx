@@ -267,7 +267,7 @@ export function Settings() {
             </Popover>
           </ListItem>
 
-          {/* <ListItem
+          {/* <ListItem //隐藏系统更新的位置
             title={Locale.Settings.Update.Version(currentVersion ?? "unknown")}
             subTitle={
               checkingUpdate
