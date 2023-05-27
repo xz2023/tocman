@@ -276,7 +276,7 @@ export function Settings() {
                 ? Locale.Settings.Update.FoundUpdate(remoteId ?? "ERROR")
                 : Locale.Settings.Update.IsLatest
             }
-          > -->
+          >
             {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
@@ -290,7 +290,7 @@ export function Settings() {
                 onClick={() => checkUpdate(true)}
               />
             )}
-          </ListItem>
+          </ListItem> -->
 
           <ListItem title={Locale.Settings.SendKey}>
             <select
