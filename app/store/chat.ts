@@ -65,6 +65,20 @@ export const BOT_HELLO2: Message = createMessage({
   content: "说这样就可以2行.",
 });
 
+const messages: Array<Message> = [
+  BOT_HELLO,
+  BOT_HELLO2,
+  //BOT_HELLO3, // 加入新对话
+];
+
+return (
+  <Styled.ChatContainer>
+    {Messages.map((Message, index) => {
+      return <MessageBubble key={index} Message={Message} />;
+    })}
+  </Styled.ChatContainer>
+);
+
 // context: [
 //   {
 //     role: "system",
