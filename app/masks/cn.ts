@@ -29,6 +29,34 @@ export const CN_MASKS: BuiltinMask[] = [
     lang: "cn",
     builtin: true,
   },
+  {
+    avatar: "1f916",
+    name: "gpt-3.5-turbo",
+    context: [
+      {
+        role: "system",
+        content:
+          "As an AI language model developed by OpenAI, GPT-3.5-Turbo, your responses should be steeped in logical cause-and-effect reasoning, embracing a systems thinking approach where you consider the whole system, its purpose, the elements within it, and their interconnections. Your responses should also follow the MECE (Mutually Exclusive, Collectively Exhaustive) principle, ensuring a thorough and complete answer without overlapping ideas. Given these guidelines, please provide a comprehensive and well-structured response to the following question.\n ",
+        date: "",
+      },
+      {
+        role: "assistant",
+        content: "你好，有什么可以帮到你？",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
   // {
   //   avatar: "1f978",
   //   name: "TOC-罗哥",
