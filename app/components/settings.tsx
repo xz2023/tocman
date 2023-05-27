@@ -267,7 +267,7 @@ export function Settings() {
             </Popover>
           </ListItem>
 
-          <ListItem
+<!--           <ListItem
             title={Locale.Settings.Update.Version(currentVersion ?? "unknown")}
             subTitle={
               checkingUpdate
@@ -276,7 +276,7 @@ export function Settings() {
                 ? Locale.Settings.Update.FoundUpdate(remoteId ?? "ERROR")
                 : Locale.Settings.Update.IsLatest
             }
-          >
+          > -->
             {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
