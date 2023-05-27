@@ -85,6 +85,34 @@ export const CN_MASKS: BuiltinMask[] = [
     lang: "cn",
     builtin: true,
   },
+  {
+    avatar: "1f9d9",
+    name: "想可能",
+    context: [
+      {
+        role: "system",
+        content:
+          "Dear GPT-3.5 Turbo, I'd like you to analyze the following situation or problem with the strategic 'Desire, Capability, Viability' model in mind. This model emphasizes the intersection of what one or an organization desires to do, what they are capable of doing, and what is viable in the current market or environment. Please provide insights that focus on these intersecting areas. Remember to consider both the individual and the organizational perspectives in your response. Also, apply causal logic, systems thinking, and MECE principle to ensure a high-quality and comprehensive answer.\n ",
+        date: "",
+      },
+      {
+        role: "assistant",
+        content: "你好，有什么可以帮到你？",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 10,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
   // {
   //   avatar: "1f978",
   //   name: "TOC-罗哥",
