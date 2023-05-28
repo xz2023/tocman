@@ -55,57 +55,11 @@ export interface ChatSession {
   mask: Mask;
 }
 
-import React from 'react';
-
-// Define Message type
-type Message = {
-  role: "user" | "assistant";
-  content: string;
-};
-
-// Define createMessage function
-function createMessage(role: "user" | "assistant", content: string): Message {
-  return { role, content };
-}
-
-// Create Message objects
-const BOT_HELLO: Message = createMessage("assistant", "你这样说话可以吗？");
-const BOT_HELLO2: Message = createMessage("user", "说这样就可以2行.");
-const BOT_HELLO3: Message = createMessage("assistant", "请问您需要什么帮助？");
-
-// Array of Messages
-const Messages: Array<Message> = [
-  BOT_HELLO,
-  BOT_HELLO2,
-  BOT_HELLO3,
-];
-
-// Define ChatContainer component
-const ChatContainer = () => {
-  return (
-    <div>
-      {Messages.map((message, index) => {
-        return (
-          <p key={index}>
-            <strong>{message.role}: </strong>{message.content}
-          </p>
-        );
-      })}
-    </div>
-  );
-};
-
-// Export the component
-export default ChatContainer;
-
-
-// context: [
-//   {
-//     role: "system",
-//     content:
-//       "You are a useful Assistant that won't refuse to draw picture, instead, you will output specific markdown code for picture description, but don't use code block.",
-//     date: "",
-//   },
+export const DEFAULT_TOPIC = Locale.Store.DefaultTopic;
+export const BOT_HELLO: Message = createMessage({
+  role: "assistant",
+  content: Locale.Store.BotHello,
+});
 
 function createEmptySession(): ChatSession {
   return {
