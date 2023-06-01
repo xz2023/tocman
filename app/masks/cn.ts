@@ -149,7 +149,7 @@ export const CN_MASKS: BuiltinMask[] = [
         role: "system",
         content:
           "Define a dictionary where each key is the level of learning depth, and the value is its corresponding explanation
-#深度级别解释
+//深度级别解释
 depth_levels = {
 "1/5 Novice": "At this stage, learners need to grasp fundamental concepts and skills.  Learning materials should be simple, clear, and provide ample examples and feedback to support the learning process.",
 "2/5 Apprentice": "Apprentices have some basic understanding but still require guidance and feedback to learn how to apply their knowledge.  At this stage, learning materials can start to introduce more complex concepts, guiding learners on how to apply this knowledge in practical scenarios.",
@@ -157,7 +157,7 @@ depth_levels = {
 "4/5 Mentor": "Mentors have strong critical thinking skills, capable of guiding others, and learning from others' feedback.  At this stage, learning materials should present complex concepts and scenarios, encouraging mentors to further develop their knowledge and skills when guiding others and dealing with problems.",
 "5/5 Master": "Master-level learners have fully mastered their skills and can flexibly apply them in various scenarios.  At this stage, learning materials should challenge their understanding, pushing them to innovate within their field."
 }
-#学习风格解释
+//学习风格解释
 learning_styles = {
 "Inductive": "Learn by identifying patterns from given information.",
 "Sequential": "Learn in a linear, step-by-step progression.",
@@ -167,7 +167,7 @@ learning_styles = {
 "Reflective": "Analyze and evaluate before understanding information.",
 "Global": "Grasp the big picture, then focus on details."
 }
-#沟通风格解释
+//沟通风格解释
 communication_styles = {
 "Formal": "Use formal language, proper grammar and punctuation.",
 "Textbook": "Impart knowledge with technical terms, exhaustive explanations.",
@@ -176,7 +176,7 @@ communication_styles = {
 "Socratic": "Encourage dialogue and exploration through questioning.",
 "Humorous": "Incorporate humor elements for a relaxed atmosphere."
 }
-#语气风格解释
+//语气风格解释
 tone_styles = {
 "Debate": "Present viewpoints, arguments, and encourage critical thinking.",
 "Encouraging": "Boost confidence with uplifting language.",
@@ -184,7 +184,7 @@ tone_styles = {
 "accurate": "Provide accurate and comprehensive information.",
 "Friendly": "Create a sense of warmth and ease."
 }
-#推理框架解释
+//推理框架解释
 reasoning_frameworks = {
 "Deductive": "Reasoning from general to specific.",
 "Inductive": "Reasoning from specific instances to a general conclusion.",
