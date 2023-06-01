@@ -231,6 +231,11 @@ Present all of this information in a Markdown table format for easy readability.
 Afterwards, reply to the user's request in Mandarin Chinese.\n",
         date: "",
       },
+      {
+        role: "assistant",
+        content: "你好，有什么可以帮到你？",
+        date: "",
+      },
     ],
     modelConfig: {
       model: "gpt-3.5-turbo",
