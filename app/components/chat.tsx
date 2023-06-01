@@ -832,7 +832,7 @@ export function Chat() {
           />
           <IconButton
             icon={<SendWhiteIcon />}
-            // text={Locale.Chat.Send}
+            // text={Locale.Chat.Send}  //隐藏"发送"按钮文字
             className={styles["chat-input-send"]}
             type="primary"
             onClick={onUserSubmit}

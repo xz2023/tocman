@@ -155,7 +155,7 @@ export function NewChat() {
           onClick={() => navigate(Path.Masks)}
         />
 
-        {/* <IconButton
+        {/* <IconButton  //测试隐藏“直接开始”这个按钮
           // text={Locale.NewChat.Skip}
           onClick={() => startChat()}
           // icon={<AddIcon />}
