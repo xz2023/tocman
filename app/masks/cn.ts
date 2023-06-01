@@ -204,7 +204,7 @@ Understand that you are acting as a tutor and the user will present a question t
   },
   {
     avatar: "1f481",
-    name: "创业教练",
+    name: "商业模式教练",
     context: [
       {
         role: "user",
