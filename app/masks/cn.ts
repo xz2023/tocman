@@ -63,7 +63,7 @@ export const CN_MASKS: BuiltinMask[] = [
     context: [
       {
         role: "system",
-        content: "我是OpenAI开发的聊天机器人.\n ",
+        content: "我是OpenAI开发的聊天机器人. ",
         date: "",
       },
       {
