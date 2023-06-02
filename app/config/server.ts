@@ -24,19 +24,41 @@ const ACCESS_CODES = (function getAccessCodes(): Set<string> {
   }
 })();
 
+// export const getServerSideConfig = () => {
+//   if (typeof process === "undefined") {
+//     throw Error(
+//       "[Server Config] you are importing a nodejs-only module outside of nodejs",
+//     );
+//   }
+
+//   return {
+//     apiKey: process.env.OPENAI_API_KEY,
+//     code: process.env.CODE,
+//     codes: ACCESS_CODES,
+//     needCode: ACCESS_CODES.size > 0,
+//     proxyUrl: process.env.PROXY_URL,
+//     isVercel: !!process.env.VERCEL,
+//   };
+// };
+
 export const getServerSideConfig = () => {
   if (typeof process === "undefined") {
     throw Error(
       "[Server Config] you are importing a nodejs-only module outside of nodejs",
     );
   }
+  //从这里开始
+  const apikeys = (process.env.OPENAI_API_KEY ?? "").split(",");
+  const apikey = apiKeys.at(Math.floor(Math.random() * apiKeys.length)) ?? "";
 
   return {
-    apiKey: process.env.OPENAI_API_KEY,
+    apikey, //到这里结束
     code: process.env.CODE,
     codes: ACCESS_CODES,
     needCode: ACCESS_CODES.size > 0,
     proxyUrl: process.env.PROXY_URL,
     isVercel: !!process.env.VERCEL,
+    hideUserApiKey: !!process.env.HIDE_USER_API_KEY,
+    enableGPT4: !process.env.DISABLE_GPT4,
   };
 };
