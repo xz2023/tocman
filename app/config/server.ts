@@ -99,7 +99,7 @@ export const getServerSideConfig = () => {
   }
 //   //从这里开始
   const apiKeys = (process.env.OPENAI_API_KEY ?? '').split(',')
-  const apiKey = apikeys.at(Math.floor(Math.random() * apiKeys.length)) ?? ''
+  const apiKey = apiKeys.at(Math.floor(Math.random() * apiKeys.length)) ?? ''
 
 //   return {
 //     apiKey, //到这里结束
