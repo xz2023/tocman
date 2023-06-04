@@ -186,7 +186,7 @@ Understand that you are acting as a tutor and the user will present a question t
       },
       {
         role: "assistant",
-        content: "你好，有什么可以帮到你？",
+        content: "你好，请用魔法棒调出与我对话的格式并修改后与我对话",
         date: "",
       },
     ],
