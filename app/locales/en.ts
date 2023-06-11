@@ -33,7 +33,7 @@ const en: LocaleType = {
     Send: "Send",
     Config: {
       Reset: "Reset to Default",
-      SaveAs: "Save as Mask",
+      SaveAs: "Save as character",
     },
   },
   Export: {
@@ -103,8 +103,8 @@ const en: LocaleType = {
       SubTitle: "Preview markdown in bubble",
     },
     Mask: {
-      Title: "Mask Splash Screen",
-      SubTitle: "Show a mask splash screen before starting new chat",
+      Title: "character Splash Screen",
+      SubTitle: "Show a character splash screen before starting new chat",
     },
     Prompt: {
       Disable: {
@@ -201,7 +201,7 @@ const en: LocaleType = {
     Name: "Plugin",
   },
   Mask: {
-    Name: "Mask",
+    Name: "character",
     Page: {
       Title: "Prompt Template",
       SubTitle: (count: number) => `${count} prompt templates`,
@@ -230,8 +230,8 @@ const en: LocaleType = {
   NewChat: {
     Return: "Return",
     Skip: "Skip",
-    Title: "Pick a Mask",
-    SubTitle: "Chat with the Soul behind the Mask",
+    Title: "Pick a character",
+    SubTitle: "Chat with the Soul behind the character",
     More: "Find More",
     NotShow: "Not Show Again",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
