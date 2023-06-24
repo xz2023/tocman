@@ -224,7 +224,7 @@ const tw: LocaleType = {
     Skip: "跳过",
     Title: "挑选一个角色",
     SubTitle: "现在开始，与角色背后的灵魂思维碰撞",
-    More: "搜索更多",
+    More: "查看全部",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
   },
