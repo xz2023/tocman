@@ -207,11 +207,15 @@
         display: flex;
         flex-wrap: nowrap;
         transition: all ease 0.3s;
+        max-width: 35%; // 你想要的宽度, 比如 200px 或 50%;调整大小
+        margin-left: auto; //向右对齐
+        align-self: flex-start; //居中
       }
 
       @media screen and (max-width: 600px) {
+        flex-wrap: nowrap; // 在小屏幕设备上不换行
         display: flex;
-        flex-direction: column;
+        flex-direction: row;//不换行
         padding-bottom: 10px;
         border-radius: 10px;
         margin-bottom: 20px;
@@ -225,6 +229,7 @@
           width: 100%;
           justify-content: space-between;
           padding-top: 10px;
+          margin-left: auto; //向右对齐
         }
       }
     }

@@ -269,7 +269,7 @@ export function MaskPage() {
               autoFocus
               onInput={(e) => onSearch(e.currentTarget.value)}
             />
-            <select
+            {/* <select
               className={styles["mask-filter-lang"]}
               value={filterLang ?? Locale.Settings.Lang.All}
               onChange={(e) => {
@@ -289,7 +289,7 @@ export function MaskPage() {
                   {Locale.Settings.Lang.Options[lang]}
                 </option>
               ))}
-            </select>
+            </select> */}
 
             <div className={styles["mask-create"]}>
               {/* <IconButton  //新建角色（面具）按钮选项，注释后已隐藏
@@ -310,12 +310,12 @@ export function MaskPage() {
                   </div>
                   <div className={styles["mask-title"]}>
                     <div className={styles["mask-name"]}>{m.name}</div>
-                    <div className={styles["mask-info"] + " one-line"}>
+                    {/* <div className={styles["mask-info"] + " one-line"}>
                       {`${Locale.Mask.Item.Info(m.context.length)} / ${
                         Locale.Settings.Lang.Options[m.lang]
-                      } / ${m.modelConfig.model}`}
-                    </div>
+                      } / ${m.modelConfig.model}`} */}
                   </div>
+                  {/* </div> */}
                 </div>
                 <div className={styles["mask-actions"]}>
                   <IconButton
@@ -326,8 +326,7 @@ export function MaskPage() {
                       navigate(Path.Chat);
                     }}
                   />
-                  {m.builtin ? //   onClick={() => setEditingMaskId(m.id)} //   text={Locale.Mask.Item.View} //   icon={<EyeIcon />} // <IconButton
-                  // />
+                  {m.builtin ? // /> //   onClick={() => setEditingMaskId(m.id)} //   text={Locale.Mask.Item.View} //   icon={<EyeIcon />} // <IconButton
                   null : (
                     <IconButton
                       icon={<EditIcon />}
